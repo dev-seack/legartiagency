@@ -1,0 +1,77 @@
+.button-container {
+  text-align: center;
+}
+
+.primary-button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $black;
+  background: $white;
+  box-shadow: $mediumshadow;
+  border-radius: 5px;
+  padding: 1.15rem 40px;
+  min-width: 200px;
+  border: none;
+  font-weight: 600;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    background: $accent;
+    height: 3px;
+    display: inline-block;
+    transition: width 300ms ease-in-out;
+  }
+  &:hover {
+    transition: all 300ms ease-in-out;
+    color: $grey;
+    &:after {
+      transition: width 300ms ease-in-out;
+      width: 100%;
+    }
+  }
+}
+
+.button-on-dark {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $white;
+  background: transparent;
+  border-radius: 5px;
+  padding: 1.15rem 40px;
+  min-width: 200px;
+  font-weight: 600;
+  border: 3px solid $white;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    color: $white;
+    transition: all 300ms ease-in-out;
+    background: rgba($color: $white, $alpha: 0.15);
+    //box-shadow: inset 0px 0px 0px 2px #f7f7f7;
+  }
+}
+
+.link {
+  color: $grey;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    color: black;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+.link-on-white * {
+  color: $black;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    color: $accent;
+    transition: all 300ms ease-in-out;
+  }
+}

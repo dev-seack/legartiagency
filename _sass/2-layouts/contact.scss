@@ -1,0 +1,55 @@
+.form-container {
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .email-information-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .information-item {
+        margin: 20px 40px 20px 0;
+        font-size: 1.5rem;
+      }
+    }
+    .contact-form-container {
+      .checkbox-input-group {
+        display: flex;
+        align-items: center;
+      }
+      .input-group {
+        margin-bottom: 20px;
+        label {
+          position: relative;
+          font-size: 1.5rem;
+          bottom: -27px;
+          color: $lightgrey;
+          transition: all 300ms ease-in-out;
+          &.focused {
+            bottom: 0;
+            font-weight: 500;
+            color: $black;
+            transition: all 300ms ease-in-out;
+          }
+        }
+        input {
+          line-height: 30px;
+        }
+        input:not([type="checkbox"]),
+        textarea {
+          width: 100%;
+          border: none;
+          border-bottom: 1px solid $lightgrey;
+        }
+        input,
+        textarea {
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

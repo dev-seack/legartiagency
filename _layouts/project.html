@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+        <title>{{ site.title }}
+            -
+            {{ page.slug }}
+            projekt</title>
+        <!-- styling -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+        <!-- fonts/icons -->
+        <link href="https://use.typekit.net/sdp7lpt.css" rel="stylesheet"/>
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
+    </head>
+    <body class="project-{{page.slug}}">
+        {% assign project = site.data.projects | where: "name", page.slug | first %}
+        {% include project-template-nav.html nav-color='light' %}
+        <main>
+            <!-- Main Content-->
+            <div class="project-detail-container">
+                <!-- Titelbild-->
+                <div class="titel-image-inner-container">
+                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.name }}/titelbild.jpg" alt=""/>
+                    <div class="row cta-scroll-container full-width text-center">
+                        <i aria-hidden="true" class="fas fa-angle-double-down text-white"></i>
+                    </div>
+                </div>
+                <!-- Project Detail Information-->
+                <div class="project-detail-inner-container">
+                    {% for section in project.sections %}
+                        <!-- New Section -->
+                        <div class="section-information-container pt-100">
+                            <div class="section-headline-container">
+                                <h2 class="project-detail-headline simple-section-heading">
+                                    {{ section.heading }}
+                                </h2>
+                            </div>
+                            <div class="section-text-container">
+                                <h2 class="pointer simple-section-heading project-detail-headline expand-information-trigger">
+                                    informationen
+                                    <span></span>
+                                </h2>
+                                <p class="read-text mt-20">
+                                    {{ section.description}}
+                                </p>
+                            </div>
+                        </div>
+                        {% for content in section.content %}
+                            <div class="{{ content.container }}-container pt-40">
+                                {% for image in content.images %}
+                                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.name }}/{{ image }}" alt=""/>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                        <!-- New Section END -->
+                    {% endfor %}
+
+                    <!-- similar projects START-->
+                    <div class="row mt-section">
+                        <div class="simple-section-heading-container col-xs-12">
+                            <h2 class="simple-section-heading">
+                                änliche projekte
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row mt-20">
+                        <div class="portoflio-selection-wrapper col-xs-12">
+                            <!-- portfolio seclection item -->
+                            <div class="portfolio-selection-item">
+                                <a class="portfolio-item-link" href="./portfolio/detail-template.html?project=lc">
+                                    <img alt="" class="portfolio-selection-image" src="https://via.placeholder.com/555x370text=portfolio+selection"/>
+                                    <div class="portfolio-selection-text-content">
+                                        <h3 class="portfolio-selection-heading mb-10">
+                                            devonet
+                                        </h3>
+                                        <p class="portfolio-selection-text read-text">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                                                                                                                                                                      Architecto quis dignissimos sapiente laudantium? Ipsa
+                                                                                                                                                                                                      repellendus at similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- portfolio seclection item -->
+                            <div class="portfolio-selection-item">
+                                <a class="portfolio-item-link" href="./portfolio/detail-template.html?project=fff">
+                                    <img alt="" class="portfolio-selection-image" src="https://via.placeholder.com/555x370text=portfolio+selection"/>
+                                    <div class="portfolio-selection-text-content">
+                                        <h3 class="portfolio-selection-heading mb-10">
+                                            fight for fitness
+                                        </h3>
+                                        <p class="portfolio-selection-text read-text">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                                                                                                                                                                      Architecto quis dignissimos sapiente laudantium? Ipsa
+                                                                                                                                                                                                      repellendus at similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- portfolio seclection item -->
+                            <div class="portfolio-selection-item">
+                                <a class="portfolio-item-link" href="./portfolio/detail-template.html?project=moname">
+                                    <img alt="" class="portfolio-selection-image" src="https://via.placeholder.com/555x370text=portfolio+selection"/>
+                                    <div class="portfolio-selection-text-content">
+                                        <h3 class="portfolio-selection-heading mb-10">moname</h3>
+                                        <p class="portfolio-selection-text read-text">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                                                                                                                                                                      Architecto quis dignissimos sapiente laudantium? Ipsa
+                                                                                                                                                                                                      repellendus at similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic. similique adipisci dolores illum ad,
+                                                                                                                                                                                                      dolorum corporis nisi aliquid itaque eveniet suscipit
+                                                                                                                                                                                                      corrupti? Hic.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- similar projects END-->
+                    <div class="row backbutton  mt-40 text-center">
+                        <a class="link-on-white" href="../projekte.html">
+                            <h2 class="simple-section-heading">
+                                zurück zum portfolio
+                            </h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer dark -->
+            {% include footer-dark.html %}
+        </main>
+
+        <!-- scripts -->
+        <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+        <script src="{{site.baseurl}}/assets/js/image-swap.js"></script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "moname",
+    "short-description": "Moname war unser erster Shop und die perfekte Möglichkeit unsere Abläufe zu perfektionieren. Wir haben unglaublich viele Freiheiten bekommen, was die kreative Arbeit sehr erleichtert hat.",
+    "thumbnail": "/moname/thumbnail.jpg",
+    "thumbnail-alttag": "",
+    "categories": [
+      "branding",
+      "corporate-design",
+      "webdesign",
+      "logodesign",
+      "webentwicklung"
+    ],
+    "home-preview": true,
+    "menu-color": "dark",
+    "sections": [
+      {
+        "heading": "webseite",
+        "description": "Mit personalisierten Lederaccessoires trifft Moname in sehr vielen Aspekten den Zahn der Zeit. Nachhaltigkeit und Individualität machen die handgemachten Accessoires zum absoluten Unikat. Das Gefühl, was Moname mit Ihren Produkten vermittelt, ist genau das, was eine gute Marke ausmacht. <br /> <br />Die Besonderheit am Moname Shop ist, dass man auf alle Produkte individuelle Gravuren in verschiedenen Farben stanzen lassen kann, die man vorher im Shop eingegeben bzw. ausgewählt hat. <br /> <br />Unser Anspruch war, genau das auch im Webdesign in den Vordergrund zu stellen. Handgemacht. Hochwertig. Einzigartig.",
+        "content": [
+          {
+            "container": "full-image",
+            "images": ["full-1.jpg"]
+          },
+          {
+            "container": "half-image",
+            "images": ["half-1.jpg", "half-2.jpg", "half-3.jpg", "half-4.jpg"]
+          }
+        ]
+      },
+      {
+        "heading": "logodesign",
+        "description": "Zur Philosophie von Moname gehört: Handmade. Das bilden wir nicht nur in den Produkten, sondern auch im Logo, in der Verpackung, bis hin zur persönlichen Widmung ab.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["half-5.jpg", "half-6.jpg", "half-7.jpg", "half-8.jpg"]
+          }
+        ]
+      },
+      {
+        "heading": "instagram strategy",
+        "description": "Für den Social Media Auftritt, der vor allem aus Instagram bestät, haben wir Bloger aus Frankreich und Italien kontaktiert, um professionelle Fotos vor schönen Kulissen zu machen. <br /><br />",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["half-9.jpg", "half-10.jpg"]
+          },
+          {
+            "container": "vertical-half-image",
+            "images": ["vertical-1.jpg", "vertical-2.jpg"]
+          }
+        ]
+      }
+    ],
+    "other-projects": []
+  },
+  {
+    "name": "gesundheitszentrum-koch",
+    "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
+    "thumbnail": "/gesundheitszentrum-koch/thumbnail.jpg",
+    "thumbnail-alttag": "",
+    "categories": [
+      "branding",
+      "corporate-design",
+      "webdesign",
+      "templates",
+      "logodesign"
+    ],
+    "menu-color": "light",
+    "home-preview": true,
+    "sections": [
+      {
+        "heading": "branding",
+        "description": "Das Projekt von dem Gesundheitszentrum Koch ist ein klassisches Beispiel dafür, dass wir bei allen Projekten das Maximum aus den gegebenen Mitteln herausholen wollen. Ursprünglich wollten sie nur eine Webseite. Als wir uns jedoch alle anderen Sachen, wie die Visitenkarten und das Logo angesehen haben, wussten wir, dass wir ein kleines Rebranding machen müssen, damit wir zu 100 % hinter dem Ergebnis stehen können. <br /><br />Es wäre falsch nur einen Teil, wie die Webseite, auf einen professionellen Stand zu bringen. Das gesamte Design muss in sich stimmig sein.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": [
+              "half-flyer-1.jpg",
+              "half-flyer-2.jpg",
+              "half-1.jpg",
+              "half-2.jpg",
+              "half-3.jpg",
+              "half-4.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "webdesign",
+        "description": "Bei der Webseite haben wir uns sehr mit der Konkurrenz auseinandergesetzt. Viele hatten unserer Meinung nach, zu viele und vor allem irrelevante Informationen. Das Wichtigste für den Patienten ist die Kontaktaufnahme, Impressionen und die Meinung anderer Patienten. Darauf haben wir im UX Design besonders wert gelegt.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["half-mobile.jpg", "half-desktop.jpg"]
+          },
+          {
+            "container": "full-image",
+            "images": ["full-web.jpg"]
+          }
+        ]
+      }
+    ],
+    "other-projects": []
+  }
+]

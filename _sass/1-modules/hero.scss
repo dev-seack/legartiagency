@@ -1,0 +1,62 @@
+.home-landing-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .home-landing-stamp-container {
+    position: absolute;
+    bottom: -75px;
+    @media (min-width: 768px) {
+      bottom: -100px;
+    }
+    width: 100%;
+    text-align: right;
+    .home-landing-stamp {
+      width: 150px;
+      @media (min-width: 768px) {
+        width: 200px;
+      }
+    }
+  }
+}
+
+// testimonial
+.home-testimonial-container {
+  position: relative;
+  .pagi-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .pagi-item {
+      width: 13px;
+      height: 13px;
+      background-color: $superlightgrey;
+      border-radius: 50%;
+      margin: 2rem 0.25rem;
+      &:hover {
+        cursor: pointer;
+      }
+      &.active {
+        background-color: $accent;
+      }
+    }
+  }
+  .personal-information {
+    .avatar {
+      width: 100%;
+      max-width: 250px;
+    }
+    .name {
+      font-size: 1.75rem;
+      font-weight: 600;
+    }
+    .title {
+      letter-spacing: 1px;
+    }
+  }
+}

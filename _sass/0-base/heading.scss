@@ -1,0 +1,68 @@
+.main-title {
+  font-size: 60px;
+  line-height: 0.9;
+  margin: 0 0 30px 0;
+  @media (min-width: 600px) {
+    font-size: 80px;
+  }
+  @media (min-width: 768px) {
+    font-size: 100px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 9.5vw;
+  }
+}
+
+.main-subtitle {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  @media (min-width: 600px) {
+    font-size: 20px;
+  }
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 1.5vw;
+  }
+}
+
+h2.headline {
+  font-size: 55px;
+  line-height: 0.9;
+  @media (min-width: 600px) {
+    font-size: 80px;
+  }
+  @media (min-width: 768px) {
+    font-size: 100px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 5vw;
+  }
+}
+
+p.sub-headline {
+  font-size: 20px;
+  line-height: 1;
+  @media (min-width: 600px) {
+    font-size: 25px;
+  }
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 1.75vw;
+  }
+}
+
+h2.simple-section-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.simple-section-heading-container {
+  border-bottom: 1px solid $lightgrey;
+  padding: 0 0 20px 0;
+}

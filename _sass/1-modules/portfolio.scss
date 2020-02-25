@@ -1,0 +1,64 @@
+// portfolio section
+.portoflio-selection-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: stretch;
+  grid-gap: 20px;
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .portfolio-item-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .portfolio-selection-text-content {
+    background-color: $superlightgrey;
+    padding: 40px 30px;
+    @media (min-width: 1200px) {
+      padding: 50px 30px;
+    }
+    height: 100%;
+    .portfolio-selection-heading {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .portfolio-selection-text {
+      color: $grey;
+    }
+  }
+}
+
+#projectfilter-list {
+  display: flex;
+  justify-content: center;
+  @media (min-width: 1000px) {
+    justify-content: left;
+  }
+  flex-wrap: wrap;
+  height: 0;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  &.collapsed {
+    height: 70px;
+    @media (min-width: 1000px) {
+      height: 40px;
+    }
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+  }
+  .projectfilter-item {
+    cursor: pointer;
+    margin: 10px 10px 0 10px;
+    transition: all 300ms;
+    &.mixitup-control-active {
+      font-weight: 600;
+      border-bottom: 1px solid #000;
+      transition: all 300ms;
+    }
+    &:hover {
+      color: grey;
+      transition: all 300ms;
+    }
+  }
+}

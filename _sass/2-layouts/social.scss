@@ -1,0 +1,50 @@
+.instagram-feed-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  .feed-item {
+    position: relative;
+
+    &:before {
+      cursor: pointer;
+      content: "";
+      display: inline-block;
+      background: transparentize($color: $accent, $amount: 0.5);
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0;
+      transition: opacity 300ms ease-in-out;
+    }
+    &:after {
+      font-family: "Font Awesome 5 Brands";
+      content: "\f16d";
+      color: white;
+      display: inline-block;
+      font-size: 2em;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      opacity: 0;
+      transition: opacity 300ms ease-in-out;
+    }
+    &:hover {
+      &:before,
+      &:after {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+      }
+    }
+  }
+}
+
+.social-channel-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  @media screen and (min-width: 625px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
