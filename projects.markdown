@@ -52,7 +52,7 @@ layout: default
     <!-- portfolio item START -->
     {% for project in site.data.projects %}
     <div class="portfolio-selection-item mix {% for cat in project.categories%}{{ cat }} {% endfor %}">
-        <a href="{{ site.baseurl }}/projects/{{ project.name }}" class="portfolio-item-link">
+        <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
         <img
             class="portfolio-selection-image"
             src="{{ site.baseurl }}/assets/img/projekte/{{ project.thumbnail }}"

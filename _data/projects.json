@@ -1,7 +1,52 @@
 [
   {
+    "name": "legarti combat",
+    "path-name": "legarti-combat",
+    "short-description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.",
+    "thumbnail": "/legarti-combat/thumbnail.jpg",
+    "thumbnail-alttag": "",
+    "categories": ["branding", "corporate-design", "video"],
+    "menu-color": "light",
+    "home-preview": true,
+    "sections": [
+      {
+        "heading": "branding",
+        "description": "Das Projekt von dem Gesundheitszentrum Koch ist ein klassisches Beispiel dafür, dass wir bei allen Projekten das Maximum aus den gegebenen Mitteln herausholen wollen. Ursprünglich wollten sie nur eine Webseite. Als wir uns jedoch alle anderen Sachen, wie die Visitenkarten und das Logo angesehen haben, wussten wir, dass wir ein kleines Rebranding machen müssen, damit wir zu 100 % hinter dem Ergebnis stehen können. <br /><br />Es wäre falsch nur einen Teil, wie die Webseite, auf einen professionellen Stand zu bringen. Das gesamte Design muss in sich stimmig sein.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": [
+              "half-flyer-1.jpg",
+              "half-flyer-2.jpg",
+              "half-1.jpg",
+              "half-2.jpg",
+              "half-3.jpg",
+              "half-4.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "webdesign",
+        "description": "Bei der Webseite haben wir uns sehr mit der Konkurrenz auseinandergesetzt. Viele hatten unserer Meinung nach, zu viele und vor allem irrelevante Informationen. Das Wichtigste für den Patienten ist die Kontaktaufnahme, Impressionen und die Meinung anderer Patienten. Darauf haben wir im UX Design besonders wert gelegt.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["half-mobile.jpg", "half-desktop.jpg"]
+          },
+          {
+            "container": "full-image",
+            "images": ["full-web.jpg"]
+          }
+        ]
+      }
+    ],
+    "other-projects": []
+  },
+  {
     "name": "moname",
-    "short-description": "Moname war unser erster Shop und die perfekte Möglichkeit unsere Abläufe zu perfektionieren. Wir haben unglaublich viele Freiheiten bekommen, was die kreative Arbeit sehr erleichtert hat.",
+    "path-name": "moname",
+    "short-description": "Moname war für uns die perfekte Möglichkeit unsere Abläufe für Onlineshop zu perfektionieren. Wir haben unglaublich viele Freiheiten bekommen, was die kreative Arbeit sehr erleichtert hat.",
     "thumbnail": "/moname/thumbnail.jpg",
     "thumbnail-alttag": "",
     "categories": [
@@ -56,7 +101,8 @@
     "other-projects": []
   },
   {
-    "name": "gesundheitszentrum-koch",
+    "name": "gesundheitszentrum koch",
+    "path-name": "gesundheitszentrum-koch",
     "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
     "thumbnail": "/gesundheitszentrum-koch/thumbnail.jpg",
     "thumbnail-alttag": "",
