@@ -3,7 +3,7 @@
     "name": "moname",
     "path-name": "moname",
     "short-description": "Moname war für uns die perfekte Möglichkeit unsere Abläufe für Onlineshop zu perfektionieren. Wir haben unglaublich viele Freiheiten bekommen, was die kreative Arbeit sehr erleichtert hat.",
-    "thumbnail": "/moname/thumbnail.jpg",
+    "thumbnail": "/moname/thumbnail",
     "thumbnail-alttag": "",
     "categories": [
       "branding",
@@ -21,11 +21,11 @@
         "content": [
           {
             "container": "full-image",
-            "images": ["full-1.jpg"]
+            "images": ["full-1"]
           },
           {
             "container": "half-image",
-            "images": ["half-1.jpg", "half-2.jpg", "half-3.jpg", "half-4.jpg"]
+            "images": ["half-1", "half-2", "half-3", "half-4"]
           }
         ]
       },
@@ -35,7 +35,7 @@
         "content": [
           {
             "container": "half-image",
-            "images": ["half-5.jpg", "half-6.jpg", "half-7.jpg", "half-8.jpg"]
+            "images": ["half-5", "half-6", "half-7", "half-8"]
           }
         ]
       },
@@ -45,11 +45,11 @@
         "content": [
           {
             "container": "half-image",
-            "images": ["half-9.jpg", "half-10.jpg"]
+            "images": ["half-9", "half-10"]
           },
           {
             "container": "vertical-half-image",
-            "images": ["vertical-1.jpg", "vertical-2.jpg"]
+            "images": ["vertical-1", "vertical-2"]
           }
         ]
       }
@@ -60,7 +60,7 @@
     "name": "gesundheitszentrum koch",
     "path-name": "gesundheitszentrum-koch",
     "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
-    "thumbnail": "/gesundheitszentrum-koch/thumbnail.jpg",
+    "thumbnail": "/gesundheitszentrum-koch/thumbnail",
     "thumbnail-alttag": "",
     "categories": [
       "branding",
@@ -79,12 +79,12 @@
           {
             "container": "half-image",
             "images": [
-              "half-flyer-1.jpg",
-              "half-flyer-2.jpg",
-              "half-1.jpg",
-              "half-2.jpg",
-              "half-3.jpg",
-              "half-4.jpg"
+              "half-flyer-1",
+              "half-flyer-2",
+              "half-1",
+              "half-2",
+              "half-3",
+              "half-4"
             ]
           }
         ]
@@ -95,11 +95,11 @@
         "content": [
           {
             "container": "half-image",
-            "images": ["half-mobile.jpg", "half-desktop.jpg"]
+            "images": ["half-mobile", "half-desktop"]
           },
           {
             "container": "full-image",
-            "images": ["full-web.jpg"]
+            "images": ["full-web"]
           }
         ]
       }
@@ -109,34 +109,43 @@
   {
     "name": "devonet",
     "path-name": "devonet",
-    "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
-    "thumbnail": "/devonet/thumbnail.jpg",
+    "short-description": "Devonet ist ein Vermitler für Handwerker aus Deutschland und dem europäischen Ausland.",
+    "thumbnail": "/devonet/thumbnail",
     "thumbnail-alttag": "",
     "categories": ["webdesign", "templates", "logodesign", "webentwicklung"],
-    "menu-color": "light",
+    "menu-color": "dark",
     "home-preview": false,
     "sections": [
       {
-        "heading": "logodesign",
-        "description": "Devonet ist ein Vermitler für Handwerker aus Deutschland und dem europäischen Ausland. Uns war wichtig, dass wir passend zum Thema Handwerk das Logo einfach und prakmatisch halten. Ohne viel Schnick Schnack.",
+        "heading": "branding/logodesign",
+        "description": "Im ertsen Meeting mit Devonet haben wir immer wieder die Worte <strong>Unkompliziert, Verwirklichend</strong> oder <strong>Simpel</strong> gehört. Passend dazu wollten wir auch das Logo simpel und praktisch halten. Devonet steht für Vermittlung von echtem Handwerk.",
         "content": [
           {
             "container": "half-image",
-            "images": ["half-logo-before.jpg", "half-logo-after.jpg"]
+            "images": [
+              "half-logo-before",
+              "half-logo-after",
+              "stamp-half",
+              "pin-half"
+            ]
+          },
+          {
+            "container": "full-image",
+            "images": ["promotion-full"]
           }
         ]
       },
       {
         "heading": "webdesign",
-        "description": "Die Devonet Webseite wurde mit einem unserer Templates erstellt. Damit ersparen wir uns viel Zeit und Arbeit und könnendem Kunden einen günstigeren Preis anbieten. Wir können so eine Vorlage allerdings zu 100% anpassen und können somit auch jeden Wunsch erfüllen.",
+        "description": "Die Devonet Webseite wurde mit einem unserer Templates (Vorlage für Webseiten) erstellt. Damit ersparen wir uns viel Zeit und Arbeit, die wir in die Entwicklung eines eigenen Mailservers investieren konnten. Besucher der Seite können sich so, entweder als Fachkraft direkt über die Webseite bewerben oder als Unternehmen Fachkräfte anfragen.",
         "content": [
           {
             "container": "half-image",
-            "images": []
+            "images": ["web-mobile-half", "web-desktop-half"]
           },
           {
             "container": "full-image",
-            "images": []
+            "images": ["web-grid-full"]
           }
         ]
       }

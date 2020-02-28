@@ -36,6 +36,9 @@ footer.dark-footer {
   }
   .social-container .social-link,
   .rights-container .rights-link {
+    &:hover {
+      color: $accent;
+    }
     padding: 0 4rem;
     @media (min-width: 1000px) {
       padding: 0 2rem;

@@ -1,18 +1,10 @@
 // testimonial objects
 const testimonials = [
   {
-    name: "Mohammed Walid",
-    sufix: "mowa",
-    title: "MMA Champion",
-    quote:
-      "Ein großes Dankeschön geht an Legarti: Für die unkomplizierte und gute Zusammenarbeit und für das tolle Endergebnis! Wir bleiben in Kontakt für weitere Aufträge."
-  },
-  {
-    name: "Guiseppe Correra",
-    sufix: "guco",
-    title: "Coach & Fighter - Fight Lounge",
-    quote:
-      "Ein großes Dankeschön geht an Legarti: Für die unkomplizierte und gute Zusammenarbeit und für das tolle Endergebnis! Wir bleiben in Kontakt für weitere Aufträge."
+    name: "Deniz Erbay",
+    sufix: "deer",
+    title: "Geschäftsführer - Devonet",
+    quote: "TEXT HIER EINFÜGEN!"
   },
   {
     name: "Johannes Koch",

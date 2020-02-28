@@ -57,4 +57,13 @@ $(document).ready(function() {
       }
     );
   });
+
+  // navigation - hide brand-name on scroll
+  $(window).on("scroll", function() {
+    if ($(this).scrollTop() > 50) {
+      $(".brand-name-container .brand-name").fadeOut();
+    } else {
+      $(".brand-name-container .brand-name").fadeIn();
+    }
+  });
 });

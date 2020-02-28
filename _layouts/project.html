@@ -51,7 +51,7 @@
                         {% for content in section.content %}
                             <div class="{{ content.container }}-container pt-40">
                                 {% for image in content.images %}
-                                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}" alt=""/>
+                                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}.jpg" alt=""/>
                                 {% endfor %}
                             </div>
                         {% endfor %}
@@ -74,7 +74,7 @@
                               {% assign current-project = site.data.projects | where: "name", p | first %}
                               <div class="portfolio-selection-item">
                                 <a class="portfolio-item-link" href="/projects/{{current-project.path-name}}">
-                                  <img alt="" class="portfolio-selection-image" src="https://via.placeholder.com/555x370text=portfolio+selection"/>
+                                  <img alt="" class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ current-project.thumbnail }}.jpg"/>
                                   <div class="portfolio-selection-text-content">
                                       <h3 class="portfolio-selection-heading mb-10">
                                           {{p}}
