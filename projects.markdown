@@ -55,7 +55,7 @@ layout: default
         <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
         <img
             class="portfolio-selection-image"
-            src="{{ site.baseurl }}/assets/img/projekte/{{ project.thumbnail }}.jpg"
+            src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/thumbnail.jpg"
             alt=""
         />
         <div class="portfolio-selection-text-content">

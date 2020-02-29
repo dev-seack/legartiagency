@@ -49,11 +49,17 @@
                             </div>
                         </div>
                         {% for content in section.content %}
+                            {% if content.container == "video" %}
+                            <div class="video-container mt-40">
+                                <iframe src="{{content.link}}" allowfullscreen></iframe>
+                            </div>
+                            {% else %}
                             <div class="{{ content.container }}-container pt-40">
                                 {% for image in content.images %}
                                     <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}.jpg" alt=""/>
                                 {% endfor %}
                             </div>
+                            {% endif %}
                         {% endfor %}
                         <!-- New Section END -->
                     {% endfor %}
@@ -74,7 +80,7 @@
                               {% assign current-project = site.data.projects | where: "name", p | first %}
                               <div class="portfolio-selection-item">
                                 <a class="portfolio-item-link" href="/projects/{{current-project.path-name}}">
-                                  <img alt="" class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ current-project.thumbnail }}.jpg"/>
+                                  <img alt="" class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ current-project.path-name }}/thumbnail.jpg"/>
                                   <div class="portfolio-selection-text-content">
                                       <h3 class="portfolio-selection-heading mb-10">
                                           {{p}}
