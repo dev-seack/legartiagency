@@ -17,7 +17,7 @@
     <body class="project-{{page.slug}}">
         {% assign project = site.data.projects | where: "path-name", page.slug |
     first %}
-        {% include project-template-nav.html nav-color='light' %}
+        {% include project-template-nav.html nav-color=project.menu-color %}
         <main>
             <!-- Main Content-->
             <div class="project-detail-container">
@@ -115,5 +115,7 @@
             <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
             <script src="{{site.baseurl}}/assets/js/image-swap.js"></script>
         </body>
+    </body>
+</html> 
     </body>
 </html>

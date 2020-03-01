@@ -38,7 +38,7 @@
       "webentwicklung"
     ],
     "home-preview": true,
-    "menu-color": "dark",
+    "menu-color": "light",
     "sections": [
       {
         "heading": "webseite",
@@ -133,11 +133,11 @@
   {
     "name": "devonet",
     "path-name": "devonet",
-    "short-description": "Devonet ist ein Vermitler für Handwerker aus Deutschland und dem europäischen Ausland.",
+    "short-description": "Zugegeben, wir hatten bei Devonet kein gro&szlig;es Budget zur Verfügung. Mit einem Template für die Webseite, konnten wir allerdings schon sehr viel Zeit und Geld sparen und uns auf das Branding konzentrieren.",
     "thumbnail-alttag": "",
     "categories": ["webdesign", "templates", "logodesign", "webentwicklung"],
-    "menu-color": "dark",
-    "home-preview": false,
+    "menu-color": "light",
+    "home-preview": true,
     "sections": [
       {
         "heading": "branding/logodesign",

@@ -1,9 +1,9 @@
-{% for project in site.data.projects limit: 3 %}
+{% for project in site.data.projects limit: 4 %}
     {% if project.home-preview ==
 true %}
         <div>
             <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
-                <img class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ project.thumbnail }}.jpg" alt="{{ project.thumbnail-alttag }}"/>
+                <img class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/thumbnail.jpg" alt="{{ project.thumbnail-alttag }}"/>
                 <div class="portfolio-selection-text-content">
                     <h3 class="portfolio-selection-heading mb-10">
                         {{project.name }}

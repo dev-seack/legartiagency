@@ -1,6 +1,13 @@
 // testimonial objects
 const testimonials = [
   {
+    name: "Mark Buchholz",
+    sufix: "mabu",
+    title: "Geschäftsführer & Headcoach - Fight Lounge",
+    quote:
+      "Legarti hat uns mit den Videos begeistert! Die Zusammenarbeit war absolut stressfrei und reibungslos. Zusagen wurden eingehalten und die Videos habe alle durchweg positives Feedback von unseren Mitgliedern gebracht."
+  },
+  {
     name: "Deniz Erbay",
     sufix: "deer",
     title: "Geschäftsführer - Devonet",
@@ -14,13 +21,6 @@ const testimonials = [
       "Ein großes Dankeschön geht an Legarti: Für die unkomplizierte und gute Zusammenarbeit und für das tolle Endergebnis! Wir bleiben in Kontakt für weitere Aufträge."
   },
   {
-    name: "Mark Buchholz",
-    sufix: "mabu",
-    title: "Geschäftsführer & Headcoach - Fight Lounge",
-    quote:
-      "Legarti hat uns mit den Videos begeistert! Die Zusammenarbeit war absolut stressfrei und reibungslos. Zusagen wurden eingehalten und die Videos habe alle durchweg positives Feedback von unseren Mitgliedern gebracht."
-  },
-  {
     name: "Leonie Langkabel",
     sufix: "lela",
     title: "Vorstand - UCS",
@@ -31,7 +31,7 @@ const testimonials = [
 
 // looping settings
 const looping = true;
-const loopDelay = 7500; // in ms
+const loopDelay = 11000; // in ms
 // global variables - do not change!
 let testiCounter = 1;
 const testiMaxCounter = testimonials.length;

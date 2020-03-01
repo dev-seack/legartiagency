@@ -35,9 +35,14 @@ footer.dark-footer {
     }
   }
   .social-container .social-link,
+  .social-container .social-link i,
   .rights-container .rights-link {
+    transition: all 300ms ease-in-out;
+    transform: scale(1);
     &:hover {
       color: $accent;
+      transform: scale(1.1);
+      transition: all 300ms ease-in-out;
     }
     padding: 0 4rem;
     @media (min-width: 1000px) {

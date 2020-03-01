@@ -26,38 +26,7 @@ layout: default
     <h2 class="simple-section-heading">Unser Instagramfeed</h2>
     </div>
 </div>
-<div class="mt-20 instagram-feed-wrapper">
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>
-    <a class="feed-link" href="">
-    <div class="feed-item"> 
-        <img src="https://via.placeholder.com/600" alt="INSTAGRAM CAPTION!">
-    </div>          
-    </a>          
-</div>
+{% include instagram-feed.html %}
 <div class="row mt-100">
     <div class="simple-section-heading-container col-xs-12 flex">
     <h2 class="simple-section-heading">Andere Kanäle</h2>

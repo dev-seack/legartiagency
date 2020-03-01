@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ site.title }}</title>
-    <!-- styling -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-    <!-- fonts/icons -->
-    <link rel="stylesheet" href="https://use.typekit.net/sdp7lpt.css" />
-    <script
-      src="https://kit.fontawesome.com/3c6787fea1.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="home">
-    <!-- scroll progress bar -->
-    <div id="scroll-progress-bar"></div>
-    {% include nav.html %}
-    <main>
-      {{ content }}
-      <!-- footer dark -->
-      {% include footer-dark.html %}
-    </main>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+        <title>{{ site.title }}</title>
+        <!-- styling -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+        <!-- fonts/icons -->
+        <link href="https://use.typekit.net/sdp7lpt.css" rel="stylesheet"/>
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
+    </head>
+    <body class="home">
+        <!-- scroll progress bar -->
+        <div id="scroll-progress-bar"></div>
+        {% include nav.html %}
+        <main>
+            {{ content }}
+            <!-- footer dark -->
+            {% include footer-dark.html %}
+        </main>
 
-    <!-- scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-    {% include home-script.html %} {% include projects-script.html %}
-  </body>
+        <!-- scripts -->
+        <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/instafeed.js"></script>
+        {% include home-script.html %}
+        {% include projects-script.html %}
+    </body>
 </html>
