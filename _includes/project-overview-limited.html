@@ -1,18 +1,16 @@
-{% for project in site.data.projects limit: 4 %}
-    {% if project.home-preview ==
-true %}
-        <div>
-            <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
-                <img class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/thumbnail.jpg" alt="{{ project.thumbnail-alttag }}"/>
-                <div class="portfolio-selection-text-content">
-                    <h3 class="portfolio-selection-heading mb-10">
-                        {{project.name }}
-                    </h3>
-                    <p class="portfolio-selection-text read-text">
-                        {{ project.short-description }}
-                    </p>
-                </div>
-            </a>
-        </div>
-    {% endif %}
+{% assign projects = site.data.projects | where: 'home-preview', true %}
+{% for project in projects limit: 3 %}
+    <div>
+        <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
+            <img class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/thumbnail.jpg" alt="{{ project.thumbnail-alttag }}"/>
+            <div class="portfolio-selection-text-content">
+                <h3 class="portfolio-selection-heading mb-10">
+                    {{project.name }}
+                </h3>
+                <p class="portfolio-selection-text read-text">
+                    {{ project.short-description }}
+                </p>
+            </div>
+        </a>
+    </div>
 {% endfor %}

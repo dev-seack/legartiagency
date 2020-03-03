@@ -15,6 +15,7 @@
         <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
     </head>
     <body class="project-{{page.slug}}">
+        {% include loadingscreen.html %}
         {% assign project = site.data.projects | where: "path-name", page.slug |
     first %}
         {% include project-template-nav.html nav-color=project.menu-color %}
@@ -65,6 +66,7 @@
                     {% endfor %}
 
                     <!-- similar projects START-->
+                    {% if project.similar-projects.size > 0 %}
                     <div class="row mt-section">
                         <div class="simple-section-heading-container col-xs-12">
                             <h2 class="simple-section-heading">
@@ -72,6 +74,7 @@
                             </h2>
                         </div>
                     </div>
+                    
                     <div class="row mt-20">
                         <!-- similar projects -->
                         <div class="portoflio-selection-wrapper col-xs-12">
@@ -95,8 +98,9 @@
                             <!-- similar project -->
                             </div>
                         </div>
+                        {% endif %}
                         <!-- similar projects END-->
-                        <div class="row backbutton  mt-40 text-center">
+                        <div class="row backbutton  {% if project.similar-projects.size > 0 %}mt-40 {% else %}mt-100 {% endif %} text-center">
                             <a class="link-on-white" href="/projects">
                                 <h2 class="simple-section-heading">
                                     zurück zum portfolio
@@ -113,6 +117,7 @@
             <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
             <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+            <script src="{{site.baseurl}}/assets/js/loadingscreen.js"></script>
             <script src="{{site.baseurl}}/assets/js/image-swap.js"></script>
         </body>
     </body>

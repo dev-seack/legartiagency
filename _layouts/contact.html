@@ -12,6 +12,7 @@
         <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
     </head>
     <body class="home">
+        {% include loadingscreen.html %}
         <!-- scroll progress bar -->
         <div id="scroll-progress-bar"></div>
         {% include nav.html %}
@@ -25,5 +26,6 @@
         <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
         <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+        <script src="{{site.baseurl}}/assets/js/loadingscreen.js"></script>
     </body>
 </html>

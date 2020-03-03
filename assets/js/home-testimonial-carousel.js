@@ -11,7 +11,8 @@ const testimonials = [
     name: "Deniz Erbay",
     sufix: "deer",
     title: "Geschäftsführer - Devonet",
-    quote: "TEXT HIER EINFÜGEN!"
+    quote:
+      "Nach einer produktiven Erstberatung konnten wir innerhalb weniger Tage auf unsere Website zugreifen. Wir bedanken uns beim Team, das bei der Gestaltung unserer Homepage jegliche Erwartungen übertroffen hat."
   },
   {
     name: "Johannes Koch",

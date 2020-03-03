@@ -1,0 +1,28 @@
+.loading-screen {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .inner-container {
+    position: relative;
+  }
+  img {
+    width: 350px;
+    transition: transform 500ms linear;
+    margin-bottom: 20px;
+  }
+  .progress-bar {
+    position: absolute;
+    left: 0;
+    background-color: black;
+    width: 0;
+    height: 4px;
+  }
+}

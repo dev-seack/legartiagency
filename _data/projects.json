@@ -1,8 +1,44 @@
 [
   {
+    "name": "legarti combat",
+    "path-name": "legarticombat",
+    "short-description": "Mit legarticombat gehen wir das nächste Herzensprojekt an. Bekleidungsdesign haben wir schon laenger im Auge. Als Kampfsportbegeisterte passt nichts besser als Sportbekleidung speziell für Kämpfer. For fighters by fighters.",
+    "thumbnail-alttag": "",
+    "categories": ["branding", "corporate-design"],
+    "home-preview": false,
+    "menu-color": "dark",
+    "sections": [
+      {
+        "heading": "shirt design - fighter gear",
+        "description": "Mit der ersten Kollektion starten wir vorerst in die Testproduktion. Welcher Stoff, welche Farben, welche Motive. Wir haben einen tollen Partner an unserer Seite, mit dem wir durch alle Prozesse gehen. Treu nach unserem Motto, einfach ma' machen. <br /> <br />Es wird ein Kickstarterprojekt werden, damit wir sehen, wie gro&szlig; die Nachfrage denn tatsächlich ist und vor allem, welches Design am besten ankommt. Wir sind gro&szlig;e Freunde davon, die Menschen zu Fragen, was sie haben wollen, um ihnen dann, mit unseren Ideen etwas bieten zu können, was ihnen gefällt.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["1", "2", "switch-japan-black", "switch-japan-white"]
+          },
+          {
+            "container": "vertical-half-image",
+            "images": ["vertical-1", "vertical-2"]
+          }
+        ]
+      },
+      {
+        "heading": "trikot design für promotion",
+        "description": "Wir wollen Amateurkämpfern das Gefühl der Gro&szlig;en geben. Das eigene Trikot in die Arena tragen. Mit Namen, Flagge des Heimatlandes und das ganz eigene Design. Das Feuer in den Augen der Kämpfer zu sehen ist einmalig, wenn sie ihr eigenes Trikot mit ganzem stolz tragen. <br /> <br />Wenn man sich andere Bekleidung für Kämpfer ansieht, ist diese meist überhäuft mit Werbung von Sponsoren und meist unpersönlichen Kram. Die gro&szlig;e Motivation dahinter war, etwas für den Kämpfer zu machen, damit er sich wohlfühlt. Er kämpft, nicht wir. Wir unterstützen und nur diese Rolle wollen wir auch einnehmen.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["italia-black", "italia-white", "3", "4"]
+          }
+        ]
+      }
+    ],
+    "similar-projects": []
+  },
+  {
     "name": "fight lounge",
     "path-name": "fightlounge",
-    "short-description": "Wir begleiten verschiedene Projekte des Kampfsportstudios wie Kursvideos oder Werbefilme für Social Media Kampagnen. Als Kampfsportbegeisterte ist diese Zusammenarbeit ein absolutes Traumprojekt - For Fighters by Fighters.",
+    "short-description": "Wir begleiten verschiedene Projekte des Kampfsportstudios wie Kursvideos oder Werbefilme für Social Media Kampagnen. Als Kampfsportbegeisterte ist diese Zusammenarbeit ein absolutes Traumprojekt - For fighters by fighters.",
     "thumbnail-alttag": "",
     "categories": ["video"],
     "home-preview": true,
