@@ -1,5 +1,6 @@
 ---
 layout: contact
+title: Kontakt - Fragen kostet nix.
 ---
 
 <div class="container home-landing-container">

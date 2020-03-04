@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Startseite, build brands people love.
 ---
 
 <div class="container home-landing-container">
@@ -8,7 +9,7 @@ layout: default
         class="main-title-container text-center col-md-10 col-md-offset-1"
       >
         <h1 class="main-title bold text-center">
-          built brands people love
+          build brands people love
         </h1>
         <p class="main-subtitle mt-50">
           <span class="bold">break the&nbsp;</span

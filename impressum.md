@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Impressum
 ---
 
 <div class="container whiteText">

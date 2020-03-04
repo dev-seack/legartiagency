@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Datenschutzerklaerung
 ---
 
 <div class="container whiteText">

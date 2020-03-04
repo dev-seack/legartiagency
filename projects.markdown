@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projekte, lass uns ma' machen.
 ---
 
 <div class="container home-landing-container">
