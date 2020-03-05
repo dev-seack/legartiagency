@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-        <title>{{ site.title }}
-            - Projekte - {{ page.slug }}</title>
-        <!-- styling -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
-        <!-- fonts/icons -->
-        <link href="https://use.typekit.net/sdp7lpt.css" rel="stylesheet"/>
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
-    </head>
+    {% include head.html %}
     <body class="project-{{page.slug}}">
         {% include loadingscreen.html %}
         {% assign project = site.data.projects | where: "path-name", page.slug |
@@ -112,10 +101,6 @@
             </main>
 
             <!-- scripts -->
-            <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
-            <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-            <script src="{{site.baseurl}}/assets/js/loadingscreen.js"></script>
             <script src="{{site.baseurl}}/assets/js/image-swap.js"></script>
         </body>
     </body>

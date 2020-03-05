@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-        <title>{{ site.title }}
-            -
-            {{page.title}}</title>
-        <!-- styling -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
-        <!-- fonts/icons -->
-        <link href="https://use.typekit.net/sdp7lpt.css" rel="stylesheet"/>
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/3c6787fea1.js"></script>
-    </head>
+    {% include head.html %}
     <body class="home">
         {% include loadingscreen.html %}
         <!-- scroll progress bar -->

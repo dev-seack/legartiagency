@@ -21,11 +21,13 @@ $(document).ready(function() {
   // click on menu-toggle-container
   $(".menu-toggle-container").on("click", function() {
     $(".main-menu.idle").toggleClass("openmenu");
+    console.log("open");
   });
 
   // click on close menu button
   $(".close-button-container").on("click", function() {
     $(".main-menu.idle.openmenu").removeClass("openmenu");
+    console.log("close");
   });
 
   // click event on every other element than menu -> close menu

@@ -118,6 +118,46 @@
     "similar-projects": []
   },
   {
+    "name": "united cheer sports e.V. dortmund",
+    "path-name": "unitedcheersports",
+    "short-description": "Die Zusammenarbeit mit UCS war und ist eine Herzensangelegenheit. Gerade bei solchen Projekten, wo Geld nicht im Fokus steht, ist es immer wieder schön, die Reaktionen auf unsere Arbeit zu sehen. Das Redesign der Seite war bitter nötig und als Verein ist es umso schwieriger jemanden zu finden, der sich dieser Aufgabe annimmt.",
+    "thumbnail-alttag": "",
+    "categories": ["webdesign", "webentwicklung"],
+    "menu-color": "light",
+    "home-preview": true,
+    "sections": [
+      {
+        "heading": "webdesign/webentwicklung",
+        "description": "Einzige Vorgabe: Besser als Vorher. Das ist auch unsere Mindestanforderung, aber wir wollten mehr. UCS hat vonn uns nicht nur ein komplett neues Design bekommen, sondern auch ein eigenes Backendsystem mit integriertem Blog, Newsticker und Mailserver, mit dem sie ganz einfach jeden Content (Überschriften, Texte, Bilder, etc.) anpassen können und das ganz ohne unsere Hilfe.<br /><br /> Wir wollten vor allem Unabhängigkeit & Einfachheit gewährleisten.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["mobile", "desktop"]
+          },
+          {
+            "container": "full-image",
+            "images": ["full-web"]
+          }
+        ]
+      },
+      {
+        "heading": "kleiner bonus",
+        "description": "Auf einer Generalprobe, auf der wir ein paar Videoaufnahmen für die Webseite gemacht haben, haben wir auch die Vereinsshirts gesehen. Jedes Team hatte ein Anderes, mit anderen Schriftarten und teilweise andere Fabren und Logovariationen. <br /><br />Wir haben allen ein einheitliches, sowie ein teamspezifisches T-Shirtdesign zur Verfügung gestellt.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["shirt-black", "shirt-white"]
+          },
+          {
+            "container": "full-image",
+            "images": ["shirt-collection"]
+          }
+        ]
+      }
+    ],
+    "similar-projects": ["devonet", "gesundheitszentrum koch", "moname"]
+  },
+  {
     "name": "gesundheitszentrum koch",
     "path-name": "gesundheitszentrum-koch",
     "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
@@ -176,6 +216,20 @@
     "home-preview": true,
     "sections": [
       {
+        "heading": "webdesign",
+        "description": "Die Devonet Webseite wurde mit einem unserer Templates (Vorlage für Webseiten) erstellt. Damit ersparen wir uns viel Zeit und Arbeit, die wir in die Entwicklung eines eigenen Mailservers investieren konnten. Besucher der Seite können sich so, entweder als Fachkraft direkt über die Webseite bewerben oder als Unternehmen Fachkräfte anfragen.",
+        "content": [
+          {
+            "container": "half-image",
+            "images": ["web-mobile-half", "web-desktop-half"]
+          },
+          {
+            "container": "full-image",
+            "images": ["web-grid-full"]
+          }
+        ]
+      },
+      {
         "heading": "branding/logodesign",
         "description": "Im ertsen Meeting mit Devonet haben wir immer wieder die Worte <strong>Unkompliziert, Verwirklichend</strong> oder <strong>Simpel</strong> gehört. Passend dazu wollten wir auch das Logo simpel und praktisch halten. Devonet steht für Vermittlung von echtem Handwerk.",
         "content": [
@@ -191,20 +245,6 @@
           {
             "container": "full-image",
             "images": ["promotion-full"]
-          }
-        ]
-      },
-      {
-        "heading": "webdesign",
-        "description": "Die Devonet Webseite wurde mit einem unserer Templates (Vorlage für Webseiten) erstellt. Damit ersparen wir uns viel Zeit und Arbeit, die wir in die Entwicklung eines eigenen Mailservers investieren konnten. Besucher der Seite können sich so, entweder als Fachkraft direkt über die Webseite bewerben oder als Unternehmen Fachkräfte anfragen.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["web-mobile-half", "web-desktop-half"]
-          },
-          {
-            "container": "full-image",
-            "images": ["web-grid-full"]
           }
         ]
       }
