@@ -1,7 +1,8 @@
 $(function() {
     $('#form').submit(function(event) {
+        event.preventDefault();
         $.ajax({
-        type: "POST",
+            type: "POST",
             url: document.URL,
             data: $(this).serialize(),
             success: function() {
