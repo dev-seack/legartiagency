@@ -1,5 +1,7 @@
-_site
+_site/
+node_modules/
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
