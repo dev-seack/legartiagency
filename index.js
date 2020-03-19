@@ -1,4 +1,11 @@
 "use strict";
+
+//webserver
+const express = require('express');
+const app = express();
+
+const config = require('config');
+
 //send mails
 const nodemailer = require("nodemailer");
 
@@ -6,10 +13,6 @@ const nodemailer = require("nodemailer");
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const upload = multer();
-
-//webserver
-const express = require('express');
-const app = express();
 
 //for parsing application/json
 app.use(bodyParser.json());
@@ -24,12 +27,12 @@ app.use(express.static('_site', {'extensions': ['html']}));
 
 //transporter to send mails
 const transporter = nodemailer.createTransport({
-  host: "smtp.strato.de",
-  port: 465,
+  host: config.get("email.host"),
+  port: config.get("email.port"),
   secure: true, // true for 465, false for other ports
   auth: {
-    user: "info@legarti.de", // generated ethereal user
-    pass: "l0tbu57&rsbi1" // generated ethereal password
+    user: config.get("email.user"), // generated ethereal user
+    pass: config.get("email.pass") // generated ethereal password
   }
 });
 
@@ -61,4 +64,4 @@ app.post('/contact', function(req, res) {
   }
 });
 
-app.listen(3000, () => console.log('Server listening on port 3000!'));
+app.listen(config.get("app.port"), () => console.log('Server listening on port 3000!'));

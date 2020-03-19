@@ -1,0 +1,8 @@
+app:
+  port: 3000
+
+email:
+  host: ''
+  port: 465
+  user: ''
+  pas: ''
