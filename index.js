@@ -35,7 +35,7 @@ const transporter = nodemailer.createTransport({
     pass: config.get("email.pass") // generated ethereal password
   }
 });
-
+ 
 app.post('/contact', function(req, res) {
   if (req.body.ansprechpartner
       && req.body.email
