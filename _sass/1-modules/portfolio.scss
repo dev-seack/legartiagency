@@ -12,6 +12,17 @@
     flex-direction: column;
     height: 100%;
     overflow: hidden;
+    &:hover:after {
+      transform: scaleX(1);
+    }
+    &:after {
+      transform-origin: 0% 50%;
+      display: block;
+      content: "";
+      border-bottom: solid 1px $darkgrey;
+      transform: scaleX(0);
+      transition: transform 500ms ease-in-out;
+    }
     &:hover {
       img {
         transform: scale(1);
@@ -20,19 +31,20 @@
     }
     img {
       transition: transform 500ms ease-in-out;
-      transform: scale(1.1);
+      transform: scale(1.035);
     }
-  }
-  .portfolio-selection-text-content {
-    background-color: $superlightgrey;
-    padding: 40px 30px;
-    height: 100%;
-    .portfolio-selection-heading {
-      font-size: 2rem;
-      font-weight: 600;
-    }
-    .portfolio-selection-text {
-      color: $grey;
+    .portfolio-selection-text-content {
+      background-color: $superlightgrey;
+      padding: 40px 30px;
+      height: 100%;
+
+      .portfolio-selection-heading {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .portfolio-selection-text {
+        color: $grey;
+      }
     }
   }
 }

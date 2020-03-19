@@ -31,9 +31,10 @@ title: Startseite, build brands people love.
     <div class="row home-landing-stamp-container hide-on-mobile">
       <div class="col-md-10 col-md-offset-1">
         <img
+          id="stamp"
           class="home-landing-stamp"
-          src="{{ site.baseurl }}/assets/img/bbpl-stamp-rotated.svg"
-          alt="built brands people love stempel, legarti agency - webseiten branding videos agentur aus bergkamen, kamen, dortmund, hamm un umgebung"
+          src="{{ site.baseurl }}/assets/img/hero-stamp.png"
+          alt="built brands people love stempel, legarti agency - webseiten branding videos agentur aus bergkamen, kamen, dortmund, hamm und umgebung"
         />
       </div>
     </div>
