@@ -179,6 +179,15 @@ a {
     margin-bottom: 0;
   }
 }
+.full-image-container,
+.half-image-container,
+.vertical-half-image-container {
+  padding-top: 20px;
+  @media screen and (min-width: 786px) {
+    padding-top: 40px;
+  }
+}
+
 .full-image-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -275,6 +284,9 @@ a {
 .full-width,
 .full-image-container {
   width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .half-width {

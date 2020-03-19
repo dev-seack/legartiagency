@@ -1,84 +1,16 @@
 [
   {
-    "name": "legarti combat",
-    "path-name": "legarticombat",
-    "short-description": "Mit legarticombat gehen wir das nächste Herzensprojekt an. Bekleidungsdesign haben wir schon laenger im Auge. Als Kampfsportbegeisterte passt nichts besser als Sportbekleidung speziell für Kämpfer. For fighters by fighters.",
+    "name": "personal branding für cem felek",
+    "path-name": "cem",
+    "short-description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
     "thumbnail-alttag": "",
-    "categories": ["branding", "corporate-design"],
-    "home-preview": false,
-    "menu-color": "dark",
-    "sections": [
-      {
-        "heading": "shirt design - fighter gear",
-        "description": "Mit der ersten Kollektion starten wir vorerst in die Testproduktion. Welcher Stoff, welche Farben, welche Motive. Wir haben einen tollen Partner an unserer Seite, mit dem wir durch alle Prozesse gehen. Treu nach unserem Motto, einfach ma' machen. <br /> <br />Es wird ein Kickstarterprojekt werden, damit wir sehen, wie gro&szlig; die Nachfrage denn tatsächlich ist und vor allem, welches Design am besten ankommt. Wir sind gro&szlig;e Freunde davon, die Menschen zu Fragen, was sie haben wollen, um ihnen dann, mit unseren Ideen etwas bieten zu können, was ihnen gefällt.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["1", "2", "switch-japan-black", "switch-japan-white"]
-          },
-          {
-            "container": "vertical-half-image",
-            "images": ["vertical-1", "vertical-2"]
-          }
-        ]
-      },
-      {
-        "heading": "trikot design für promotion",
-        "description": "Wir wollen Amateurkämpfern das Gefühl der Gro&szlig;en geben. Das eigene Trikot in die Arena tragen. Mit Namen, Flagge des Heimatlandes und das ganz eigene Design. Das Feuer in den Augen der Kämpfer zu sehen ist einmalig, wenn sie ihr eigenes Trikot mit ganzem stolz tragen. <br /> <br />Wenn man sich andere Bekleidung für Kämpfer ansieht, ist diese meist überhäuft mit Werbung von Sponsoren und meist unpersönlichen Kram. Die gro&szlig;e Motivation dahinter war, etwas für den Kämpfer zu machen, damit er sich wohlfühlt. Er kämpft, nicht wir. Wir unterstützen und nur diese Rolle wollen wir auch einnehmen.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["italia-black", "italia-white", "3", "4"]
-          }
-        ]
-      }
-    ],
-    "similar-projects": []
-  },
-  {
-    "name": "fight lounge",
-    "path-name": "fightlounge",
-    "short-description": "Wir begleiten verschiedene Projekte des Kampfsportstudios wie Kursvideos oder Werbefilme für Social Media Kampagnen. Als Kampfsportbegeisterte ist diese Zusammenarbeit ein absolutes Traumprojekt - For fighters by fighters.",
-    "thumbnail-alttag": "",
-    "categories": ["video"],
-    "home-preview": true,
-    "menu-color": "dark",
-    "sections": [
-      {
-        "heading": "werbefilm - fight for fitness",
-        "description": "Der „Fight for Fitness“ Werbeclip kann als frecher Motivator gesehen werden. Nach der Idee von Fight Lounge Headcoach und Geschäftsführer Mark Buchholz haben wir in diesem Projekt den Stereotypen des Fitnessstudio-Posers einem Kampfsportler gegenüber gestellt. Umgesetzt in einer Fassung für soziale Medien und in einer weiteren für örtliche Kinowerbung.",
-        "content": [
-          {
-            "container": "video",
-            "link": ["https://www.youtube.com/embed/y4BAhsrxiFo"]
-          },
-          {
-            "container": "half-image",
-            "images": ["bts-half-1", "bts-half-2"]
-          }
-        ]
-      }
-    ],
-    "similar-projects": []
-  },
-  {
-    "name": "moname",
-    "path-name": "moname",
-    "short-description": "Moname war für uns die perfekte Möglichkeit unsere Abläufe für Onlineshop zu perfektionieren. Wir haben unglaublich viele Freiheiten bekommen, was die kreative Arbeit sehr erleichtert hat.",
-    "thumbnail-alttag": "",
-    "categories": [
-      "branding",
-      "corporate-design",
-      "webdesign",
-      "logodesign",
-      "webentwicklung"
-    ],
+    "categories": ["branding", "video"],
     "home-preview": true,
     "menu-color": "light",
     "sections": [
       {
-        "heading": "webseite",
-        "description": "Mit personalisierten Lederaccessoires trifft Moname in sehr vielen Aspekten den Zahn der Zeit. Nachhaltigkeit und Individualität machen die handgemachten Accessoires zum absoluten Unikat. Das Gefühl, was Moname mit Ihren Produkten vermittelt, ist genau das, was eine gute Marke ausmacht. <br /> <br />Die Besonderheit am Moname Shop ist, dass man auf alle Produkte individuelle Gravuren in verschiedenen Farben stanzen lassen kann, die man vorher im Shop eingegeben bzw. ausgewählt hat. <br /> <br />Unser Anspruch war, genau das auch im Webdesign in den Vordergrund zu stellen. Handgemacht. Hochwertig. Einzigartig.",
+        "heading": "photoshooting für instagram",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         "content": [
           {
             "container": "full-image",
@@ -86,169 +18,23 @@
           },
           {
             "container": "half-image",
-            "images": ["half-1", "half-2", "half-3", "half-4"]
-          }
-        ]
-      },
-      {
-        "heading": "logodesign",
-        "description": "Zur Philosophie von Moname gehört: Handmade. Das bilden wir nicht nur in den Produkten, sondern auch im Logo, in der Verpackung, bis hin zur persönlichen Widmung ab.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["half-5", "half-6", "half-7", "half-8"]
-          }
-        ]
-      },
-      {
-        "heading": "instagram strategy",
-        "description": "Für den Social Media Auftritt, der vor allem aus Instagram bestät, haben wir Bloger aus Frankreich und Italien kontaktiert, um professionelle Fotos vor schönen Kulissen zu machen. <br /><br />",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["half-9", "half-10"]
+            "images": ["half-1", "half-2"]
           },
           {
-            "container": "vertical-half-image",
-            "images": ["vertical-1", "vertical-2"]
+            "container": "full-image",
+            "images": ["full-2"]
+          },
+          {
+            "container": "half-image",
+            "images": ["half-3", "half-4"]
+          },
+          {
+            "container": "full-image",
+            "images": ["full-3"]
           }
         ]
       }
     ],
     "similar-projects": []
-  },
-  {
-    "name": "united cheer sports e.V. dortmund",
-    "path-name": "unitedcheersports",
-    "short-description": "Die Zusammenarbeit mit UCS war und ist eine Herzensangelegenheit. Gerade bei solchen Projekten, wo Geld nicht im Fokus steht, ist es immer wieder schön, die Reaktionen auf unsere Arbeit zu sehen. Das Redesign der Seite war bitter nötig und als Verein ist es umso schwieriger jemanden zu finden, der sich dieser Aufgabe annimmt.",
-    "thumbnail-alttag": "",
-    "categories": ["webdesign", "webentwicklung"],
-    "menu-color": "light",
-    "home-preview": true,
-    "sections": [
-      {
-        "heading": "webdesign/webentwicklung",
-        "description": "Einzige Vorgabe: Besser als Vorher. Das ist auch unsere Mindestanforderung, aber wir wollten mehr. UCS hat vonn uns nicht nur ein komplett neues Design bekommen, sondern auch ein eigenes Backendsystem mit integriertem Blog, Newsticker und Mailserver, mit dem sie ganz einfach jeden Content (Überschriften, Texte, Bilder, etc.) anpassen können und das ganz ohne unsere Hilfe.<br /><br /> Wir wollten vor allem Unabhängigkeit & Einfachheit gewährleisten.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["mobile", "desktop"]
-          },
-          {
-            "container": "full-image",
-            "images": ["full-web"]
-          }
-        ]
-      },
-      {
-        "heading": "kleiner bonus",
-        "description": "Auf einer Generalprobe, auf der wir ein paar Videoaufnahmen für die Webseite gemacht haben, haben wir auch die Vereinsshirts gesehen. Jedes Team hatte ein Anderes, mit anderen Schriftarten und teilweise andere Fabren und Logovariationen. <br /><br />Wir haben allen ein einheitliches, sowie ein teamspezifisches T-Shirtdesign zur Verfügung gestellt.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["shirt-black", "shirt-white"]
-          },
-          {
-            "container": "full-image",
-            "images": ["shirt-collection"]
-          }
-        ]
-      }
-    ],
-    "similar-projects": ["devonet", "gesundheitszentrum koch", "moname"]
-  },
-  {
-    "name": "gesundheitszentrum koch",
-    "path-name": "gesundheitszentrum-koch",
-    "short-description": "Bei der Neueröffnung des Gesundheitszentrums Koch waren wir für das Rebranding zuständig (Logodesign, Visitenkarten, Arbeitskleidung und ein Teil der Innen- und Außeneinrichtung). Außerdem haben wir die Webseite von Grund auf neu erstellt.",
-    "thumbnail-alttag": "",
-    "categories": [
-      "branding",
-      "corporate-design",
-      "webdesign",
-      "templates",
-      "logodesign"
-    ],
-    "menu-color": "light",
-    "home-preview": false,
-    "sections": [
-      {
-        "heading": "branding",
-        "description": "Das Projekt von dem Gesundheitszentrum Koch ist ein klassisches Beispiel dafür, dass wir bei allen Projekten das Maximum aus den gegebenen Mitteln herausholen wollen. Ursprünglich wollten sie nur eine Webseite. Als wir uns jedoch alle anderen Sachen, wie die Visitenkarten und das Logo angesehen haben, wussten wir, dass wir ein kleines Rebranding machen müssen, damit wir zu 100 % hinter dem Ergebnis stehen können. <br /><br />Es wäre falsch nur einen Teil, wie die Webseite, auf einen professionellen Stand zu bringen. Das gesamte Design muss in sich stimmig sein.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": [
-              "half-flyer-1",
-              "half-flyer-2",
-              "half-1",
-              "half-2",
-              "half-3",
-              "half-4"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "webdesign",
-        "description": "Bei der Webseite haben wir uns sehr mit der Konkurrenz auseinandergesetzt. Viele hatten unserer Meinung nach, zu viele und vor allem irrelevante Informationen. Das Wichtigste für den Patienten ist die Kontaktaufnahme, Impressionen und die Meinung anderer Patienten. Darauf haben wir im UX Design besonders wert gelegt.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["half-mobile", "half-desktop"]
-          },
-          {
-            "container": "full-image",
-            "images": ["full-web"]
-          }
-        ]
-      }
-    ],
-    "similar-projects": ["devonet"]
-  },
-  {
-    "name": "devonet",
-    "path-name": "devonet",
-    "short-description": "Zugegeben, wir hatten bei Devonet kein gro&szlig;es Budget zur Verfügung. Mit einem Template für die Webseite, konnten wir allerdings schon sehr viel Zeit und Geld sparen und uns auf das Branding konzentrieren.",
-    "thumbnail-alttag": "",
-    "categories": ["webdesign", "templates", "logodesign", "webentwicklung"],
-    "menu-color": "light",
-    "home-preview": true,
-    "sections": [
-      {
-        "heading": "webdesign",
-        "description": "Die Devonet Webseite wurde mit einem unserer Templates (Vorlage für Webseiten) erstellt. Damit ersparen wir uns viel Zeit und Arbeit, die wir in die Entwicklung eines eigenen Mailservers investieren konnten. Besucher der Seite können sich so, entweder als Fachkraft direkt über die Webseite bewerben oder als Unternehmen Fachkräfte anfragen.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": ["web-mobile-half", "web-desktop-half"]
-          },
-          {
-            "container": "full-image",
-            "images": ["web-grid-full"]
-          }
-        ]
-      },
-      {
-        "heading": "branding/logodesign",
-        "description": "Im ertsen Meeting mit Devonet haben wir immer wieder die Worte <strong>Unkompliziert, Verwirklichend</strong> oder <strong>Simpel</strong> gehört. Passend dazu wollten wir auch das Logo simpel und praktisch halten. Devonet steht für Vermittlung von echtem Handwerk.",
-        "content": [
-          {
-            "container": "half-image",
-            "images": [
-              "half-logo-before",
-              "half-logo-after",
-              "stamp-half",
-              "pin-half"
-            ]
-          },
-          {
-            "container": "full-image",
-            "images": ["promotion-full"]
-          }
-        ]
-      }
-    ],
-    "similar-projects": ["gesundheitszentrum koch"]
   }
 ]

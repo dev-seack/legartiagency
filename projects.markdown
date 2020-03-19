@@ -22,24 +22,7 @@ title: Projekte, lass uns ma' machen.
 </div>
 <!-- unsere projekte -->
 <div class="container home-portoflio-selection-container mt-100">
-<div class="row">
-    <div id="projectfilter-collapse-trigger" class="simple-section-heading-container col-xs-12 flex pointer">
-    <h2 class="simple-section-heading">Projektfilter<i class="fas fa-angle-down text-black ml-small"></i></h2>
-    </div>
-</div>
-<div class="row mb-40">
-    <ul id="projectfilter-list" class="collapsed">
-    <li data-filter="all" class="projectfilter-item active">Alle</li>
-    <li data-filter=".branding" class="projectfilter-item">Branding</li>
-    <li data-filter=".webdesign" class="projectfilter-item">Webdesign</li>
-    <li data-filter=".corporate-design" class="projectfilter-item">Corporate Design</li>
-    <li data-filter=".video" class="projectfilter-item">Video</li>
-    <li data-filter=".logodesign" class="projectfilter-item">Logodesign</li>
-    <li data-filter=".templates" class="projectfilter-item">Webdesign Templates</li>
-    <li data-filter=".webentwicklung" class="projectfilter-item">Webentwicklung</li>
-    </ul>
-
-</div>
+{% include projectfilter.html %}
 <div class="row mt-20" style="min-height: 200px;">
     <div class="no-category-items-found-container mt-40">
     <p class="no-category-items-found text-center read-text">

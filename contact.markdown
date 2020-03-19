@@ -52,7 +52,8 @@ title: Kontakt - Fragen kostet nix.
     </div>
     </div>
     <div class="contact-form-container col-md-8">
-    <form action="" class="container">
+    <p id="contact-alert"></p>
+    <form id="form" action="" class="container" method="post">
         <div class="row">
         <div class="input-group col-md-6">
             <label for="unternehmen">unternehmen</label>
@@ -70,10 +71,10 @@ title: Kontakt - Fragen kostet nix.
         </div>
         <div class="row">
         <div class="input-group col-md-6">
-            <label for="e-mail">e-mail*</label>
+            <label for="email">Email*</label>
             <input
             type="email"
-            name="e-mail"
+            name="email"
             required
             autocomplete="off"
             />
@@ -116,7 +117,7 @@ title: Kontakt - Fragen kostet nix.
         <div class="row">
         <div class="input-group col-md-12 mt-40">
             <div class="container button-container">
-            <button type="submit" class="button primary-button">
+            <button id="submit-contact" type="submit" class="button primary-button">
                 absenden
             </button>
             </div>

@@ -13,9 +13,12 @@
     .section-information-container {
       display: grid;
       grid-template-columns: 1fr;
+      margin-bottom: 20px;
+      padding-top: 50px;
 
       @media (min-width: 720px) {
         grid-template-columns: 1fr 1fr;
+        padding-top: 100px;
       }
       grid-gap: 40px;
       .section-headline-container {
@@ -45,10 +48,6 @@
           transform: rotate(-90deg);
           transition: transform 300ms ease-in-out;
         }
-      }
-      .section-text-container .read-text.collapsed {
-        height: 0;
-        display: none;
       }
     }
     .video-container {

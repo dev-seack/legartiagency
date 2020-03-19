@@ -12,17 +12,13 @@
   flex-direction: column;
   .inner-container {
     position: relative;
-  }
-  img {
-    width: 350px;
-    transition: transform 500ms linear;
-    margin-bottom: 20px;
+    width: 250px;
   }
   .progress-bar {
     position: absolute;
     left: 0;
     background-color: black;
     width: 0;
-    height: 4px;
+    height: 3px;
   }
 }

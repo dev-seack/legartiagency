@@ -5,13 +5,16 @@
         {% include loadingscreen.html %}
         {% assign project = site.data.projects | where: "path-name", page.slug |
     first %}
-        {% include project-template-nav.html nav-color=project.menu-color %}
         <main>
             <!-- Main Content-->
             <div class="project-detail-container">
                 <!-- Titelbild-->
                 <div class="titel-image-inner-container">
-                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/titelbild.jpg" alt=""/>
+                    <picture>
+                        <source media="(min-width: 900px)" srcset="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/titelbild.jpg" alt=""/>
+                        <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/titelbild-mobile.jpg" alt=""/>
+                    </picture>
+                    
                     <div class="row cta-scroll-container full-width text-center">
                         <i aria-hidden="true" class="fas fa-angle-double-down text-white"></i>
                     </div>
@@ -20,18 +23,18 @@
                 <div class="project-detail-inner-container">
                     {% for section in project.sections %}
                         <!-- New Section -->
-                        <div class="section-information-container pt-100">
+                        <div class="section-information-container">
                             <div class="section-headline-container">
                                 <h2 class="project-detail-headline simple-section-heading">
                                     {{ section.heading }}
+                                    
                                 </h2>
                             </div>
                             <div class="section-text-container">
                                 <h2 class="pointer simple-section-heading project-detail-headline expand-information-trigger">
                                     informationen
-                                    <span></span>
                                 </h2>
-                                <p class="read-text mt-20">
+                                <p class="read-text mt-20 ">
                                     {{ section.description}}
                                 </p>
                             </div>
@@ -42,7 +45,7 @@
                                 <iframe src="{{content.link}}" allowfullscreen></iframe>
                             </div>
                             {% else %}
-                            <div class="{{ content.container }}-container pt-40">
+                            <div class="{{ content.container }}-container">
                                 {% for image in content.images %}
                                     <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}.jpg" alt=""/>
                                 {% endfor %}
