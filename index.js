@@ -35,7 +35,7 @@ const transporter = nodemailer.createTransport({
     pass: config.get("email.pass") // generated ethereal password
   }
 });
- 
+
 app.post('/contact', function(req, res) {
   if (req.body.ansprechpartner
       && req.body.email
@@ -64,4 +64,4 @@ app.post('/contact', function(req, res) {
   }
 });
 
-app.listen(config.get("app.port"), () => console.log('Server listening on port 3000!'));
+app.listen(config.get("app.port"), () => console.log('Server listening on port' + config.get("app.port")));
