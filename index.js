@@ -28,8 +28,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
-    user: "info@legarti.de", // generated ethereal user
-    pass: "l0tbu57&rsbi1" // generated ethereal password
+    user: "", // generated ethereal user
+    pass: "" // generated ethereal password
   }
 });
 
