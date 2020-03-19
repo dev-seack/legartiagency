@@ -53,7 +53,7 @@ title: Kontakt - Fragen kostet nix.
     </div>
     <div class="contact-form-container col-md-8">
     <p id="contact-alert"></p>
-    <form id="form" action="" class="container" method="post">
+    <form id="form" class="container">
         <div class="row">
         <div class="input-group col-md-6">
             <label for="unternehmen">unternehmen</label>
