@@ -25,6 +25,27 @@
     background-color: transparent;
   }
 
+  &.project-navigation {
+    .menu-toggle-stripe {
+      @media (min-width: 1000px) {
+        background: white;
+      }
+    }
+    @media (min-width: 1000px) {
+      top: 40px;
+      position: absolute;
+      justify-content: flex-end;
+      padding: 0;
+      right: 40px;
+      left: 40px;
+      width: auto;
+      padding: 20px;
+    }
+    .logo-container {
+      display: none;
+    }
+  }
+
   .logo-container {
     display: none;
     @media (min-width: 1000px) {
