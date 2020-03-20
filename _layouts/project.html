@@ -6,6 +6,7 @@
         {% assign project = site.data.projects | where: "path-name", page.slug |
     first %}
         <main>
+            {% include project-nav.html %}
             <!-- Main Content-->
             <div class="project-detail-container">
                 <!-- Titelbild-->
