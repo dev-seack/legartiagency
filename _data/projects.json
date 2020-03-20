@@ -18,6 +18,10 @@
         "description": "Der Dreh in der Fight Lounge wurde gepaart mit einem Fotoshooting. Vorher haben wir die bisherige Bildsprache seiner Profile analysiert, um zu garantieren, dass die neuen Fotos sich gut im Feed einfügen und der Marke entsprechen. <br /><br />Ein besonderer Dank geht an den Fotografen Emre <a href='https://www.instagram.com/bks_eb/' style='color: #d3ac92;'>(@bks_eb)</a>",
         "content": [
           {
+            "container": "video",
+            "link": ["http://www.rapconverter.com/SampleDownload/Sample1280.mp4"]
+          },
+          {
             "container": "full-image",
             "images": ["full-1"]
           },

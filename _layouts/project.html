@@ -41,15 +41,16 @@
                         </div>
                         {% for content in section.content %}
                             {% if content.container == "video" %}
-                            <div class="video-container mt-40">
-                                <iframe src="{{content.link}}" allowfullscreen></iframe>
-                            </div>
+                                {% assign hasVideos = true %}
+                                <div class="video-container mt-40">
+                                    <iframe src="{{content.link}}" allowfullscreen></iframe>
+                                </div>
                             {% else %}
-                            <div class="{{ content.container }}-container">
-                                {% for image in content.images %}
-                                    <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}.jpg" alt=""/>
-                                {% endfor %}
-                            </div>
+                                <div class="{{ content.container }}-container">
+                                    {% for image in content.images %}
+                                        <img src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/{{ image }}.jpg" alt=""/>
+                                    {% endfor %}
+                                </div>
                             {% endif %}
                         {% endfor %}
                         <!-- New Section END -->
@@ -105,6 +106,9 @@
 
             <!-- scripts -->
             <script src="{{site.baseurl}}/assets/js/image-swap.js"></script>
+            {%- if hasVideos -%}
+                <script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
+            {%- endif -%}
         </body>
     </body>
 </html>
