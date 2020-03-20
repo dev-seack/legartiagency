@@ -34,24 +34,24 @@ title: Agentur, behind the scenes.
     </div>
     <div class="social-channel-wrapper mt-40">
     <a href="https://www.behance.net/legartiagency" class="image-name-card">
-        <img src="https://via.placeholder.com/600" alt="">
+        <img src="{{site.baseurl}}/assets/img/social/behance.jpg" alt="">
         <div class="card-body">
         <h2 class="simple-section-heading">behance</h2>
-        <p class="card-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi.</p>
+        <p class="card-information">folge uns auf Behance und verpasse keinen Showcase mehr.</p>
         </div>
     </a>
-    <a href="https://www.behance.net/legartiagency" class="image-name-card">
-        <img src="https://via.placeholder.com/600" alt="">
+    <a href="https://www.facebook.com/legarti.agency/" class="image-name-card">
+        <img src="{{site.baseurl}}/assets/img/social/facebook.jpg" alt="">
         <div class="card-body">
         <h2 class="simple-section-heading">facebook</h2>
-        <p class="card-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi.</p>
+        <p class="card-information">auf Facebook wirst du immer auf dem Laufenden gehalten</p>
         </div>
     </a>
-    <a href="https://www.behance.net/legartiagency" class="image-name-card">
-        <img src="https://via.placeholder.com/600" alt="">
+    <a href="https://www.instagram.com/legarti.agency/" class="image-name-card">
+        <img src="{{site.baseurl}}/assets/img/social/instagram.jpg" alt="">
         <div class="card-body">
-        <h2 class="simple-section-heading">dmig</h2>
-        <p class="card-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi.</p>
+        <h2 class="simple-section-heading">instagram</h2>
+        <p class="card-information">bei Instagram erlebst du alles was in und um der Agentur passiert</p>
         </div>
     </a>
     </div>
