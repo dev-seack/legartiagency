@@ -6,6 +6,9 @@
     <!-- styling -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
     <link rel="shortcut icon" href="{{site.baseurl}}/fav.ico" type="image/x-icon">
+    {%- if page.video -%}
+        <link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
+    {%- endif -%}
     <!-- fonts/icons -->
     <link href="https://use.typekit.net/sdp7lpt.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
