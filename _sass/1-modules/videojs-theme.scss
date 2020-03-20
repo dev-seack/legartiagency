@@ -1,8 +1,9 @@
 .video-js {
+    &:hover .vjs-big-play-button {
+        transform: translate(-50%, -50%) scale(1.25) !important;
+        transition: transform 300ms ease-in-out;
+    }
     .vjs-big-play-button {
-        &:hover {
-            transform: translate(-50%, -50%) scale(1.25) !important
-        }
         top: 50% !important;
         left: 50% !important;
         transform: translate(-50%,-50%) !important;
