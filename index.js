@@ -66,6 +66,7 @@ app.post('/contact', function(req, res) {
 
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', function(req, res){
+  console.log("* route");
   res.status(404).sendFile('404.html', { root: path.join(__dirname, '_site') });;
 });
 
