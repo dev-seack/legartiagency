@@ -5,16 +5,18 @@ $(document).ready(function() {
   let scrollDest = docHeight - winHeight; // real destination to scroll to
 
   // custom scrollbar functionality
-  var scrollProgress = Math.floor((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100);
+  function getScrollPercent() {
+    var h = document.documentElement, 
+        b = document.body,
+        st = 'scrollTop',
+        sh = 'scrollHeight';
+    return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+  }
 
-  $("#scroll-progress-bar").css({ height: scrollProgress + "vh" });
+  $("#scroll-progress-bar").css({ height: getScrollPercent() + "vh" });
 
   $(document).on("scroll", function() {
-    var scrollProgress = Math.floor(
-      (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100
-    );
-
-    $("#scroll-progress-bar").css({ height: scrollProgress + "vh" });
+    $("#scroll-progress-bar").css({ height: getScrollPercent() + "vh" });
   });
 
   // event listener
