@@ -45,7 +45,7 @@
                                 <div class="video-container mt-40">
                                     <video data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'>
                                         {%- for type in content.types -%}
-                                            <source src="{{ site.baseurl }}/assets/video/projekte/{{ project.path-name }}/{{ content.filename | append: '.' + type.filetype }}" type="{{ type.mimetype }}">
+                                            <source src="{{ site.baseurl }}/assets/video/projekte/{{ project.path-name }}/{{ content.filename | append: '.' | append type.filetype }}" type="{{ type.mimetype }}">
                                         {%- endfor -%}
                                     </video>
                                 </div>
