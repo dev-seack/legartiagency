@@ -1,9 +1,17 @@
-.video-js .vjs-big-play-button {
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%,-50%) !important;
-}
+.video-js {
+    .vjs-big-play-button {
+        &:hover {
+            transform: translate(-50%, -50%) scale(1.25) !important
+        }
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%,-50%) !important;
+        border: 0 !important;
+        background: transparent !important;
+        font-size: 9em !important;
 
-.video-js .vjs-control-bar {
-    display: none;
+        .vjs-icon-placeholder {
+            color: #fff !important;
+        }
+    }
 }
