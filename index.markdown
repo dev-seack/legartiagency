@@ -12,12 +12,7 @@ title: Startseite, build brands people love.
           build brands people love
         </h1>
         <p class="main-subtitle mt-50">
-          <span class="bold">break the&nbsp;</span
-          ><span class="light">nach allen Regeln</span>
-        </p>
-        <p class="main-subtitle">
-          <span class="bold">status quo&nbsp;</span
-          ><span class="light">der Kunst</span>
+          <span class="light">nach allen Regeln der Kunst</span>
         </p>
       </div>
     </div>

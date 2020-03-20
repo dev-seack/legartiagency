@@ -2,27 +2,24 @@
   {
     "name": "personal branding für cem felek",
     "path-name": "cem",
-    "short-description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "short-description": "Cem kam zu uns, weil er in Zukunft seine persönliche Marke auf sozialen Medien mit mehr sportlichen und athletischen Inhalten ausdrücken möchte. Dafür haben wir eine Beziehung zum Flexxfit Waltrop aufgebaut, welcher der perfekte Schauplatz zweier Workouts werden sollte. Zusätzlich haben wir unsere Verbindung zur Fight Lounge Dortmund genutzt, um ein echtes personal Training im Kampfsport zu ermöglichen. Authentizität ist hier das wichtigste für seine Zielgruppe und uns.",
     "thumbnail-alttag": "",
     "categories": ["branding", "video"],
     "home-preview": true,
     "menu-color": "light",
     "sections": [
       {
+        "heading": "videocontent",
+        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank geht an den Fotografen Emre <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "content": [{}]
+      },
+      {
         "heading": "photoshooting für instagram",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "description": "Der Dreh in der Fight Lounge wurde gepaart mit einem Fotoshooting. Vorher haben wir die bisherige Bildsprache seiner Profile analysiert, um zu garantieren, dass die neuen Fotos sich gut im Feed einfügen und der Marke entsprechen. <br /><br />Ein besonderer Dank geht an den Fotografen Emre <a href='https://www.instagram.com/bks_eb/' style='color: #d3ac92;'>(@bks_eb)</a>",
         "content": [
           {
             "container": "full-image",
             "images": ["full-1"]
-          },
-          {
-            "container": "half-image",
-            "images": ["half-1", "half-2"]
-          },
-          {
-            "container": "full-image",
-            "images": ["full-2"]
           },
           {
             "container": "half-image",
