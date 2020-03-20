@@ -43,7 +43,9 @@
                             {% if content.container == "video" %}
                                 {% assign hasVideos = true %}
                                 <div class="video-container mt-40">
-                                    <iframe src="{{content.link}}" allowfullscreen></iframe>
+                                    <video data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'>
+                                        <source src="{{ content.link }}" type="mp4">
+                                    </video>
                                 </div>
                             {% else %}
                                 <div class="{{ content.container }}-container">
