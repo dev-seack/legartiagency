@@ -54,11 +54,12 @@ $(document).ready(function() {
   })();
 
   var rotationObject = document.getElementById("stamp");
-
-  // to use the script *without* anti-jank, set the event to "scroll" and remove the anonymous function.
-
-  window.addEventListener("optimizedScroll", function() {
-    rotationObject.style.transform =
-      "rotate(-" + window.pageYOffset / 3 + "deg)";
-  });
+  if (rotationObject) {
+    // to use the script *without* anti-jank, set the event to "scroll" and remove the anonymous function.
+  
+    window.addEventListener("optimizedScroll", function() {
+      rotationObject.style.transform =
+        "rotate(-" + window.pageYOffset / 3 + "deg)";
+    });
+  }
 });
