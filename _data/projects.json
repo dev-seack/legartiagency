@@ -19,7 +19,10 @@
         "content": [
           {
             "container": "video",
-            "link": ["http://www.rapconverter.com/SampleDownload/Sample1280.mp4"]
+            "filename": "full-01",
+            "types": [
+              { "filetype": "mp4", "mimetype": "video/mp4" }
+            ]
           },
           {
             "container": "full-image",

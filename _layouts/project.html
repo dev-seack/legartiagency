@@ -44,7 +44,9 @@
                                 {% assign hasVideos = true %}
                                 <div class="video-container mt-40">
                                     <video data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'>
-                                        <source src="{{ content.link }}" type="video/mp4">
+                                        {%- for type in content.types -%}
+                                            <source src="{{ site.baseurl }}/assets/video/projekte/{{ project.path-name }}/{{ content.filename | append: type.filetype }}" type="{{ type.mimetype }}">
+                                        {%- endfor -%}
                                     </video>
                                 </div>
                             {% else %}
