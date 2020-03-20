@@ -12,7 +12,7 @@ title: Projekte, lass uns ma' machen.
         lass uns ma' machen
     </h1>
     <p class="main-subtitle mt-30 light">
-        Kannste woanders machen, wird dann halt Kacke.
+        <span class="light">Kannste woanders machen, wird dann halt Kacke.</span>
     </p>
     </div>
 </div>

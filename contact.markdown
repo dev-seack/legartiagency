@@ -12,8 +12,10 @@ title: Kontakt - Fragen kostet nix.
         fragen kostet nix.
     </h1>
     <p class="main-subtitle mt-30 light">
-        Wir haben Bock was zu schaffen. <br />
-        Lass es Dein Projekt sein.
+        <span class="light">
+            Wir haben Bock was zu schaffen. <br />
+            Lass es Dein Projekt sein.
+        </span>
     </p>
     </div>
 </div>

@@ -12,7 +12,7 @@ title: Agentur, behind the scenes.
         behind the scenes
     </h1>
     <p class="main-subtitle mt-30 light">
-        was machen wir eigentlich den ganzen Tag?
+        <span class="light">was machen wir eigentlich den ganzen Tag?</span>
     </p>
     </div>
 </div>
