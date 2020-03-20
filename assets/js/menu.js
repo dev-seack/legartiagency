@@ -5,13 +5,13 @@ $(document).ready(function() {
   let scrollDest = docHeight - winHeight; // real destination to scroll to
 
   // custom scrollbar functionality
-  var scrollProgress = Math.floor(($(document).scrollTop() / scrollDest) * 100);
+  var scrollProgress = Math.floor((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100);
 
   $("#scroll-progress-bar").css({ height: scrollProgress + "vh" });
 
   $(document).on("scroll", function() {
     var scrollProgress = Math.floor(
-      ($(document).scrollTop() / scrollDest) * 100
+      (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100
     );
 
     $("#scroll-progress-bar").css({ height: scrollProgress + "vh" });
