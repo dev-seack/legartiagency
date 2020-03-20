@@ -43,10 +43,23 @@
                             {% if content.container == "video" %}
                                 {% assign hasVideos = true %}
                                 <div class="video-container mt-40">
-                                    <video data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'>
+                                    <video
+                                        id="my-player"
+                                        class="video-js"
+                                        controls
+                                        preload="auto"
+                                        poster="{{ site.baseurl | append: '/assets/video/projekte/' | append: project.path-name | append: '/' | append: content.filename | append: '-poster.jpg' }}"
+                                        data-setup='{}'>
                                         {%- for type in content.types -%}
-                                            <source src="{{ site.baseurl }}/assets/video/projekte/{{ project.path-name }}/{{ content.filename | append: '.' | append: type.filetype }}" type="{{ type.mimetype }}">
+                                            <source src="{{ site.baseurl | append: '/assets/video/projekte/' | append: project.path-name | append: '/' | append: content.filename | append: '.' | append: type.filetype }}" type="{{ type.mimetype }}">
                                         {%- endfor -%}
+                                        <p class="vjs-no-js">
+                                          To view this video please enable JavaScript, and consider upgrading to a
+                                          web browser that
+                                          <a href="https://videojs.com/html5-video-support/" target="_blank">
+                                            supports HTML5 video
+                                          </a>
+                                        </p>
                                     </video>
                                 </div>
                             {% else %}
