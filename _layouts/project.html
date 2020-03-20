@@ -46,8 +46,9 @@
                                     <div class="video-wrapper">
                                         <video
                                             id="my-player"
-                                            class="video-js"
+                                            class="video-js vjs-fill"
                                             preload="auto"
+                                            controls
                                             poster="{{ site.baseurl | append: '/assets/video/projekte/' | append: project.path-name | append: '/' | append: content.filename | append: '-poster.jpg' }}"
                                             data-setup='{}'>
                                             {%- for type in content.types -%}
