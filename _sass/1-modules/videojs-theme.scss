@@ -16,6 +16,11 @@
         background: transparent !important;
     }
 
+    .vjs-fullscreen-control,
+    .vjs-control {
+        outline: none;
+    }
+
     .vjs-icon-placeholder {
         color: #fff !important;
     }
