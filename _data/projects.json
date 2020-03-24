@@ -10,14 +10,12 @@
     "sections": [
       {
         "heading": "videocontent",
-        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank geht an den Fotografen Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank für die Textanimationen geht an Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
         "content": [
           {
             "container": "video",
             "filename": "full-01",
-            "types": [
-              { "filetype": "mp4", "mimetype": "video/mp4" }
-            ]
+            "types": [{ "filetype": "mp4", "mimetype": "video/mp4" }]
           }
         ]
       },
