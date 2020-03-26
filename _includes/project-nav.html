@@ -1,8 +1,6 @@
 <!-- Navigation -->
-<nav class="main-navigation project-navigation">
-    <a href="/">
-        <div class="logo-container"></div>
-    </a>
+<nav class="main-navigation project-detail-navigation">
+    <div class="logo-container"></div>
     <div class="brand-name-container"></div>
     <div class="menu-toggle-container">
         <div class="menu-toggle-stripe"></div>
@@ -10,11 +8,14 @@
         <div class="menu-toggle-stripe stripe-short"></div>
     </div>
 </nav>
-<!-- Menu -->
-<div class="main-menu idle">
-    <div class="close-button-container text-left full-width">
-        <img src="{{ site.baseurl }}/assets/img/icons/closebtn.svg" alt="" class="close-button pointer"/>
+<!-- Mobile Menu -->
+
+<div class="main-mobile-menu idle">
+    <div class="menu-toggle-container">
+        <span class="text-white">menü<i class="text-white fas fa-caret-up menu-arrow" style="margin-left: 7px;"></i>
+        </span>
     </div>
+
     <div class="menu-link-container">
         <ul class="menu-link-list text-center">
             <li class="bold menu-link-item {% if page.url == '/'%} active {% endif %}">
@@ -22,25 +23,145 @@
                     startseite
                 </a>
             </li>
+
             <li class="bold menu-link-item {% if page.url == '/projects.html'%} active {% endif %}">
                 <a href="/projects">
                     projekte
                 </a>
             </li>
+
             <li class="bold menu-link-item {% if page.url == '/social.html'%} active {% endif %}">
                 <a href="/social">
                     agentur
                 </a>
             </li>
+
             <li class="bold menu-link-item {% if page.url == '/contact.html'%} active {% endif %}">
                 <a href="/contact">
                     kontakt
                 </a>
             </li>
         </ul>
+
+        <div class="social-container col-md-4">
+            <div class="l-shape-corner"></div>
+
+            <div class=" inner-content-container">
+                <a class="social-link" href="https://www.facebook.com/legarti.agency/">
+                    <i class="fab fa-facebook-square text-white read-text"></i>
+                </a>
+
+                <a class="social-link" href="https://www.instagram.com/legarti.agency/">
+                    <i class="fab fa-instagram text-white read-text"></i>
+                </a>
+
+                <a class="social-link" href="https://www.behance.net/legartiagency">
+                    <i class="fab fa-behance text-white read-text"></i>
+                </a>
+            </div>
+
+            <div class="l-shape-corner rotate-90-neg"></div>
+        </div>
     </div>
-    <div class="menu-footer-container text-center">
-        <p class="text-grey bold">einfach ma' hallo sagen</p>
-        <p class="text-black light">hallo@legarti.agency</p>
+</div>
+
+<!-- Main (Desktop) Menu -->
+<div class="main-menu">
+    <div class="inner-container">
+        <div class="controller-container">
+            <div class="l-shape-corner rotate-90"></div>
+            <div class="closebutton-container pointer">
+                <div class="closebutton-stripe rotate-45"></div>
+                <div class="closebutton-stripe rotate-45-neg"></div>
+            </div>
+        </div>
+        <div class="main-content-container">
+            <div class="left-container">
+                <p class="menu-label mt-20">menü</p>
+                <div class="textures-container">
+                    <div class="mid-line black"></div>
+                    <div class="square black"></div>
+                    <div class="square yellow"></div>
+                    <div class="square black"></div>
+                </div>
+                <div class="social-container">
+                    <a class="social-link" href="https://www.facebook.com/legarti.agency/">
+                        <i class="fab fa-facebook-square text-white read-text"></i>
+                    </a>
+
+                    <a class="social-link" href="https://www.instagram.com/legarti.agency/">
+                        <i class="fab fa-instagram text-white read-text"></i>
+                    </a>
+
+                    <a class="social-link" href="https://www.behance.net/legartiagency">
+                        <i class="fab fa-behance text-white read-text"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="middle-container">
+                <div class="top-container">
+                    <ul class="menu-link-list">
+                        <li class="bold menu-link-item {% if page.url == '/'%} active {% endif %}">
+                            <a href="/">
+                                startseite
+                            </a>
+                        </li>
+
+                        <li class="bold menu-link-item {% if page.url == '/projects.html'%} active {% endif %}">
+                            <a href="/projects">
+                                projekte
+                            </a>
+                        </li>
+
+                        <li class="bold menu-link-item {% if page.url == '/social.html'%} active {% endif %}">
+                            <a href="/social">
+                                agentur
+                            </a>
+                        </li>
+
+                        <li class="bold menu-link-item {% if page.url == '/contact.html'%} active {% endif %}">
+                            <a href="/contact">
+                                kontakt
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="newest-post-container">
+                        <a class="preview-container" href="/projects/cem">
+                            <video autoplay loop muted>
+                                <source type="video/mp4" src="{{site.baseurl}}/assets/video/menu-preview/preview-video.mp4"/>
+                            </video>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-container text-center">
+                    <a href="/contact">
+                        <p>lass uns mal 'nen Kaffee trinken.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="rotated-container">
+                    <p class="rotate-90">
+                        <span class="rotate-90">unser
+                        </span>
+                        <span class="rotate-90">neuster
+                        </span>
+                        <span class="rotate-90">showcase</span>
+                    </p>
+                    <div class="large-line black"></div>
+                    <p class="rotate-90">
+                        <span class="rotate-90">fragen
+                        </span>
+                        <span class="rotate-90">kostet
+                        </span>
+                        <span class="rotate-90">nix.</span>
+                    </p>
+                </div>
+                <div class="year-container">
+                    <p>{{ site.time | date: '%Y' }}</p>
+                    <div class="l-shape-corner black-border rotate-90-neg"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

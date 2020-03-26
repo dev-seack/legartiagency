@@ -6,11 +6,11 @@ $(document).ready(function() {
 
   // custom scrollbar functionality
   function getScrollPercent() {
-    var h = document.documentElement, 
-        b = document.body,
-        st = 'scrollTop',
-        sh = 'scrollHeight';
-    return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+    var h = document.documentElement,
+      b = document.body,
+      st = "scrollTop",
+      sh = "scrollHeight";
+    return ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
   }
 
   $("#scroll-progress-bar").css({ height: getScrollPercent() + "vh" });
@@ -23,15 +23,30 @@ $(document).ready(function() {
   // click on menu-toggle-container
   $(".menu-toggle-container").on("click", function() {
     $(".main-menu.idle").toggleClass("openmenu");
-    console.log("open");
   });
 
   // click on close menu button
   $(".close-button-container").on("click", function() {
     $(".main-menu.idle.openmenu").removeClass("openmenu");
-    console.log("close");
   });
 
-  // click event on every other element than menu -> close menu
-  // TODO!
+  // mobile menu toggle
+  $(".menu-toggle-container").on("click", function() {
+    if ($(".main-mobile-menu").css("display") != "none") {
+      $(".main-mobile-menu").toggleClass("open");
+      $(".menu-arrow").toggleClass("rotate-180");
+      $(".main-navigation").toggleClass("fadeOut");
+    } else {
+      $(".main-menu").addClass("open");
+    }
+  });
+
+  // desktop menu toggle
+  $(
+    ".main-menu .inner-container .controller-container .closebutton-container"
+  ).on("click", function() {
+    console.log("test");
+
+    $(".main-menu").removeClass("open");
+  });
 });

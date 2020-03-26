@@ -353,6 +353,10 @@ a {
   transform: rotate(180deg);
 }
 
+.rotate-45-neg {
+  transform: rotate(-45deg);
+}
+
 .rotate-45 {
   transform: rotate(45deg);
 }
@@ -361,14 +365,57 @@ a {
   transform: rotate(-90deg);
 }
 
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
 .fadeOut {
   transition: opacity 500ms ease-in-out;
   opacity: 0 !important;
 }
 
 .l-shape-corner {
-  border-bottom: 2px solid white;
-  border-left: 2px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
   width: 10px;
   height: 10px;
+}
+
+.max-container {
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+// textures
+.large-line {
+  width: 5px;
+  height: 160px;
+}
+
+.mid-line {
+  width: 5px;
+  height: 40px;
+}
+
+.square {
+  width: 5px;
+  height: 5px;
+}
+
+.cross {
+  width: 5px;
+  height: 5px;
+}
+
+.black {
+  background: $black;
+}
+
+.black-border {
+  border-color: $black;
+}
+
+.yellow {
+  background: $accent;
 }

@@ -1,11 +1,4 @@
 $(document).ready(function() {
-  // mobile menu toggle
-  $(".menu-toggle-container").on("click", function() {
-    $(".main-mobile-menu").toggleClass("open");
-    $(".menu-arrow").toggleClass("rotate-180");
-    $(".main-navigation").toggleClass("fadeOut");
-  });
-
   let sectiontextcontainerheight = $(
     ".section-text-container .read-text"
   ).height();
