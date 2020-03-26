@@ -1,4 +1,11 @@
 $(document).ready(function() {
+  // mobile menu toggle
+  $(".menu-toggle-container").on("click", function() {
+    $(".main-mobile-menu").toggleClass("open");
+    $(".menu-arrow").toggleClass("rotate-180");
+    $(".main-navigation").toggleClass("fadeOut");
+  });
+
   let sectiontextcontainerheight = $(
     ".section-text-container .read-text"
   ).height();
@@ -56,7 +63,7 @@ $(document).ready(function() {
   var rotationObject = document.getElementById("stamp");
   if (rotationObject) {
     // to use the script *without* anti-jank, set the event to "scroll" and remove the anonymous function.
-  
+
     window.addEventListener("optimizedScroll", function() {
       rotationObject.style.transform =
         "rotate(-" + window.pageYOffset / 3 + "deg)";
