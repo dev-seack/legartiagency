@@ -2,7 +2,7 @@
   {
     "name": "personal branding für cem felek",
     "path-name": "cem",
-    "short-description": "Cem kam zu uns, weil er in Zukunft seine persönliche Marke auf sozialen Medien mit mehr sportlichen und athletischen Inhalten ausdrücken möchte. Dafür haben wir eine Beziehung zum Flexxfit Waltrop aufgebaut, welcher der perfekte Schauplatz zweier Workouts werden sollte. Zusätzlich haben wir unsere Verbindung zur Fight Lounge Dortmund genutzt, um ein echtes personal Training im Kampfsport zu ermöglichen. Authentizität ist hier das wichtigste für seine Zielgruppe und uns.",
+    "short-description": "Cem kam zu uns, weil er in Zukunft seine persönliche Marke auf sozialen Medien mit mehr sportlichen und athletischen Inhalten ausdrücken möchte. Dafür haben wir eine Beziehung zum Flexxfit Waltrop aufgebaut, welcher der perfekte Schauplatz zweier Workouts werden sollte. Zusätzlich haben wir unsere Verbindung zur Fight Lounge Dortmund genutzt, um ein echtes personal Training im Kampfsport zu ermöglichen.",
     "thumbnail-alttag": "",
     "categories": ["branding", "video"],
     "home-preview": true,
@@ -43,15 +43,15 @@
   {
     "name": "fighter promotion giuseppe correra",
     "path-name": "correra",
-    "short-description": "Giuseppe Correra ist ein Kämpfer der Fight Lounge, welchen wir nicht nur bei seiner Vorbereitung verfolgt und Unterstützt haben, sondern auch beim Meisteschaftskampf.",
+    "short-description": "Das nächste gemeinsame Projekt war Giuseppes Kampf auf der Westfalenmeisterschaft in der Hellwegsporthalle in Unna. Giuseppes erster Kampf nach zwei Jahren Wettkampfpause.<br>Wir haben ihn bei der Vorbereitung im Fitnessstudio und beim Boxtraining verfolgt und ihn bis zum Ring begleitet.",
     "thumbnail-alttag": "",
     "categories": ["branding", "video", "combat"],
     "home-preview": true,
     "menu-color": "light",
     "sections": [
       {
-        "heading": "athletic training im mcfit",
-        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank für die Textanimationen geht an Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "heading": "vorbereitung im mcfit",
+        "description": "Das erste Projekt für Giuseppe ist eine Kampfvorbereitung aus drei Bereichen des Trainings aufzunehmen. Giuseppe befindet sich zu diesem Zeitpunkt vor mindestens einem Box- und einem K1-Kampf. Bis zur Fertigstellung dieses Projekt haben wir Giuseppe contentstrategisch mit mehreren Teasern ausgestattet. Wie zum Beispiel einen Ausschnitt aus seinem Krafttraining im McFit.<br/><br/><strong>Credits - </strong>Giuseppe Correra (Athlet); Robin Tuchel (Kamera & Edit); Beat by Depo",
         "content": [
           {
             "container": "video",
@@ -65,8 +65,8 @@
         ]
       },
       {
-        "heading": "boxmeisterschaften 2020 in unna",
-        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank für die Textanimationen geht an Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "heading": "westfalenmeisterschaften 2020 in unna",
+        "description": "Der Fokus lag klar darauf, die Schlagabtäusche aufzunehmen, so wie von Giuseppe gewünscht. Darüber hinaus war uns aber auch wichtig auch die Ebene außerhalb des Rings zu zeigen. Den einzigartigen Walkout zum Ring, die Rufe und Reaktionen der Trainer und Zuschauer, das Ergebnis und die Gefühle danach.<br/><br/><strong>Credits - </strong>Giuseppe Correra (Athlet); Robin Tuchel (Kamera & Edit); Beat by Husix<br/><br/><strong>Giuseppe steht im Finale, welches nach der Corona-Krise ausgetragen wird. An der Stelle ist ein großes Lob an die Veranstalter auszusprechen, die frühzeitig gehandelt und die Veranstaltung abgesagt haben.</strong>",
         "content": [
           {
             "container": "video",
