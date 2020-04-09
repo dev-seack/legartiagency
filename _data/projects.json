@@ -38,6 +38,44 @@
         ]
       }
     ],
-    "similar-projects": []
+    "similar-projects": ["fighter promotion giuseppe correra"]
+  },
+  {
+    "name": "fighter promotion giuseppe correra",
+    "path-name": "correra",
+    "short-description": "Giuseppe Correra ist ein Kämpfer der Fight Lounge, welchen wir nicht nur bei seiner Vorbereitung verfolgt und Unterstützt haben, sondern auch beim Meisteschaftskampf.",
+    "thumbnail-alttag": "",
+    "categories": ["branding", "video", "combat"],
+    "home-preview": true,
+    "menu-color": "light",
+    "sections": [
+      {
+        "heading": "athletic training im mcfit",
+        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank für die Textanimationen geht an Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "content": [
+          {
+            "container": "video",
+            "filename": "mcfit",
+            "types": [{ "filetype": "mp4", "mimetype": "video/mp4" }]
+          },
+          {
+            "container": "half-image",
+            "images": ["half-1", "half-2"]
+          }
+        ]
+      },
+      {
+        "heading": "boxmeisterschaften 2020 in unna",
+        "description": "Explosive Bewegungen gepaart mit langsamen Fokusaufnahmen und Porträts bestimmen das Material. Ein Atmosphärischer aber deutlicher Beat, Gewichtekrachen und Atemzüge übernehmen den Klang. Ein Kontrastreiches Schwarz/Weiß überträgt bisherige Designentscheidungen der Website <a href='http://felek.tv/' style='color: #d3ac92;'>felek.tv</a> in unser Bewegtbild. Leichtes Bildrauschen ergänzt den Beat mit Retrowave Einflüssen. Abgerundet wurde das ganze durch Textanimationen. <br /><br />Ein besonderer Dank für die Textanimationen geht an Constantin <a href='https://www.instagram.com/niklewitz/' style='color: #d3ac92;'>(@niklewitz)</a>",
+        "content": [
+          {
+            "container": "video",
+            "filename": "kampf",
+            "types": [{ "filetype": "mp4", "mimetype": "video/mp4" }]
+          }
+        ]
+      }
+    ],
+    "similar-projects": ["personal branding für cem felek"]
   }
 ]

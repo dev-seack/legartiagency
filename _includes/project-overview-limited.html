@@ -1,6 +1,6 @@
 {% assign projects = site.data.projects | where: 'home-preview', true %}
 {% for project in projects limit: 3 %}
-    <div>
+    <div class="portfolio-selection-item  {{project.categories | join: ' '}}">
         <a href="{{ site.baseurl }}/projects/{{ project.path-name }}" class="portfolio-item-link">
             <img class="portfolio-selection-image" src="{{ site.baseurl }}/assets/img/projekte/{{ project.path-name }}/thumbnail.jpg" alt="{{ project.thumbnail-alttag }}"/>
             <div class="portfolio-selection-text-content">

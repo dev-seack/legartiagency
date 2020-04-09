@@ -7,6 +7,37 @@
   @media (min-width: 1000px) {
     grid-template-columns: repeat(3, 1fr);
   }
+  .combat {
+    .portfolio-item-link {
+      &:after {
+        border-color: orangered;
+      }
+
+      .portfolio-selection-text-content {
+        position: relative;
+        &:after {
+          content: "";
+          background-color: orangered;
+          width: 50px;
+          height: 50px;
+          display: block;
+          position: absolute;
+          right: -25px;
+          bottom: -25px;
+          transform: rotate(45deg);
+        }
+        &::before {
+          content: "ein projekt von legarti.combat";
+          display: block;
+          position: absolute;
+          width: 100%;
+          bottom: 12.5px;
+          font-size: 1.55rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
   .portfolio-item-link {
     display: flex;
     flex-direction: column;
@@ -36,6 +67,7 @@
     .portfolio-selection-text-content {
       background-color: $superlightgrey;
       padding: 40px 30px;
+      padding-bottom: 80px;
       height: 100%;
 
       .portfolio-selection-heading {

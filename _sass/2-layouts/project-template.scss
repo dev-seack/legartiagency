@@ -7,6 +7,9 @@
     position: relative;
     max-height: 100vh;
     overflow: hidden;
+    picture img {
+      width: 100%;
+    }
   }
   .project-detail-inner-container {
     margin-top: 50px;
