@@ -56,6 +56,9 @@ title: Startseite, build brands people love.
       </div>
     </div>
   </div>
+  <!-- PODCAST PREVIEW -->
+  {% include podcast-preview.html %}
+  <!-- TETIMONIALS -->
   <div class="container home-testimonial-container mt-section">
     <div class="pagi-container hide-flex-on-mobile">
       <div class="pagi-inner-container"></div>
