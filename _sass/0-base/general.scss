@@ -9,6 +9,11 @@
 }
 
 // typografie
+.outline {
+  -webkit-text-stroke-color: $black;
+  -webkit-text-stroke-width: 2.5px;
+  color: transparent;
+}
 h3 {
   font-size: 1.75rem;
 }
