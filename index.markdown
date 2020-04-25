@@ -3,6 +3,8 @@ layout: default
 title: Startseite, build brands people love.
 ---
 
+{% include notification.html %}
+
 <div class="container home-landing-container">
     <div class="row mt-50">
       <div

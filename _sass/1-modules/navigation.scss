@@ -169,7 +169,7 @@
   @media screen and (min-width: 980px) {
     display: none;
     position: fixed;
-    z-index: $toplayer;
+    z-index: $toplayer + 100;
     top: 0;
     left: 0;
     right: 0;
