@@ -7,7 +7,6 @@ $(document).ready(function () {
       !$(".notification-container").hasClass("keep-closed")
     ) {
       $(".notification-container").addClass("open");
-      console.log("open");
     } else if (
       $(window).scrollTop() < 500 &&
       $(".notification-container").hasClass("open")

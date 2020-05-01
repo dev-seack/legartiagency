@@ -28,6 +28,10 @@ title: Agentur, behind the scenes.
     </div>
 </div>
 {% include instagram-feed.html %}
+
+{% include podcast-preview.html %}
+{% include podcast-playlist.html %}
+
 <div class="row mt-100">
     <div class="simple-section-heading-container col-xs-12 flex">
     <h2 class="simple-section-heading">Andere Kanäle</h2>
