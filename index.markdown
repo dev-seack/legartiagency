@@ -3,7 +3,7 @@ layout: default
 title: Startseite, build brands people love.
 ---
 
-{% include notification.html %}
+<!-- {% include notification.html %} -->
 
 <div class="container home-landing-container">
     <div class="row mt-50">
@@ -59,7 +59,7 @@ title: Startseite, build brands people love.
     </div>
   </div>
   <!-- PODCAST PREVIEW -->
-  {% include podcast-preview.html %}
+  
   <!-- TETIMONIALS -->
   <div class="container home-testimonial-container mt-section">
     <div class="pagi-container hide-flex-on-mobile">

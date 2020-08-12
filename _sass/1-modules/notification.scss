@@ -1,0 +1,66 @@
+.notification-container {
+  display: none;
+  @media (min-width: 1000px) {
+    display: inline-block;
+  }
+  position: fixed;
+  z-index: $toplayer;
+  top: 100px;
+  background: white;
+  border: 1px solid $lightgrey;
+  border-radius: 5px 0 0 5px;
+  right: -460px;
+  transition: right 600ms cubic-bezier(0.25, 0.75, 0.5, 1.25);
+  &.open {
+    right: -1px;
+    transition: right 600ms cubic-bezier(0.25, 0.75, 0.5, 1.25);
+  }
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .thumbnail-container {
+      max-width: 100px;
+      position: relative;
+      left: -1px;
+    }
+    .text-container {
+      padding: 0 30px;
+      font-size: 1.75rem;
+      max-width: 350px;
+      .description {
+        line-height: 2rem;
+      }
+    }
+  }
+
+  .action-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid $lightgrey;
+    .close-notification,
+    .link-notification {
+      width: 50%;
+      height: 100%;
+      padding: 15px 0;
+      text-align: center;
+      transition: background 300ms ease-in-out;
+    }
+    .link-notification {
+      border-left: 1px solid $lightgrey;
+      &:hover {
+        background: rgba($accent, $alpha: 0.5);
+        transition: background 300ms ease-in-out;
+      }
+    }
+    .close-notification {
+      &:hover {
+        background: $lightgrey;
+        transition: background 300ms ease-in-out;
+      }
+    }
+  }
+}

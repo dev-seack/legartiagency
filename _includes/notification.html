@@ -1,0 +1,22 @@
+{% assign noti = site.data.notification %} {% if noti.active %}
+<div class="notification-container">
+  <div class="content-container">
+    <div class="thumbnail-container">
+      <img
+        alt="legarti neuigkeiten - {{noti.category}}"
+        src="{{site.baseurl}}/assets/img/{{noti.category}}/notification.jpg"
+      />
+    </div>
+    <div class="text-container">
+      <h4 class="headline">{{noti.headline}}</h4>
+      <p class="description read-text">{{noti.description}}</p>
+    </div>
+  </div>
+  <div class="action-container">
+    <div class="close-notification light pointer">schliessen.</div>
+    <a href="{{noti.link}}" class="bold link-notification"
+      ><h4>{{noti.action-text}}</h4></a
+    >
+  </div>
+</div>
+{% endif %}
