@@ -27,10 +27,6 @@ title: Agentur, behind the scenes.
     <h2 class="simple-section-heading">Unser Instagramfeed</h2>
     </div>
 </div>
-{% include instagram-feed.html %}
-
-{% include podcast-preview.html %}
-{% include podcast-playlist.html %}
 
 <div class="row mt-100">
     <div class="simple-section-heading-container col-xs-12 flex">
